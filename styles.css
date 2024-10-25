@@ -1,0 +1,155 @@
+/* Estilos para el preloader */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    opacity: 1;
+    transition: opacity 1s ease-out;
+}
+.preloader p{
+    position: fixed;
+    top: 15%;
+    left: 25%;
+    font-family: "alegreya-sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2.5em;
+    color: #4caf50;
+    animation: fadeInOut 4s forwards;
+}
+.preloader p span{
+    color: #388e3c;
+}
+
+.full-screen-image {
+    max-width: 100%;
+    max-height: 100%;
+    opacity: 0;
+    animation: fadeInOut 4s forwards;
+  }
+  
+  @keyframes fadeInOut {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+
+.categorias {
+    background-color: #e0f7fa;
+    padding: 15px;
+    margin-bottom: 15px;  
+}
+.categorias button{
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+button:hover {
+    background-color: #388e3c;
+}
+
+/* Estilos para los productos */
+.productos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    justify-items: center;
+    margin: 20px 10px;
+}
+
+.producto {
+    width: 100%;
+    padding: 10px;
+    background-color: #f1f8e9;
+    border: 1px solid #c8e6c9;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.producto img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.producto h3 {
+    font-size: 1.1em;
+    color: #2e7d32;
+}
+
+.producto p {
+    font-size: 0.9em;
+    color: #388e3c;
+}
+.resumen-carrito {
+    margin-top: 20px;
+    border-top: 2px solid #ccc;
+    padding: 10px;
+    margin-bottom: 60px;
+}
+.resumen-carrito h2{
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+
+.item-carrito {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.total-carrito h3 {
+    text-align: right;
+    font-weight: bold;
+}
+@media (min-width: 800px) {
+    .productos {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+      justify-items: center;
+      margin: 20px 10px;
+      max-width: 600px;
+      margin: auto;
+    }
+    .preloader p{
+        display: none;
+    }
+  }
+@media (max-width: 500px) {
+
+  .productos {
+    max-width: 400px;
+    margin: auto;
+  }
+}

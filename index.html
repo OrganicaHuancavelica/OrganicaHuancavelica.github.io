@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda Virtual - Orgánica</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://use.typekit.net/ias2cua.css">
+</head>
+<body>
+
+    <div id="preloader" class="preloader">
+        <p>Bienvenido a <span>Oraganica</span></p>
+        <img src="logo-charly.PNG" alt="Cargando" class="full-screen-image">
+    </div>
+
+    <div id="categorias" class="categorias">
+        <button onclick="cargarProductos('bebidas-calientes')">Bebidas Calientes</button>
+        <button onclick="cargarProductos('limonadas')">Limonadas</button>
+        <button onclick="cargarProductos('shakes')">Shakes</button>
+        <button onclick="cargarProductos('fresas')">Fresas</button>
+        <button onclick="cargarProductos('sodas-heladas')">Sodas Heladas</button>
+        <button onclick="cargarProductos('helados')">Helados</button>
+        <button onclick="cargarProductos('bebidas-frias')">Bebidas Frías</button>
+    </div>
+
+    <div id="productos" class="productos">
+       
+    </div>
+
+    <div id="resumen-carrito" class="resumen-carrito">    
+        <h2>Resumen del Pedido</h2>
+        <div id="lista-carrito">
+        </div>
+        <div>
+            <label for="">Nombre</label>
+            <input type="text" name="" id="nombre">
+        </div>
+        <br>
+        <button onclick="finalizarPedido()">Finalizar Pedido</button>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
