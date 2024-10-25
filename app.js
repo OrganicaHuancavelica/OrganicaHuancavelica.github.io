@@ -133,5 +133,5 @@ function finalizarPedido() {
   **Total:** S/${total.toFixed(2)}
 `;
 
-    window.open(`https://wa.me/51972338386?text=${encodeURIComponent(mensaje)}`, '_blank');
+    window.open(`https://wa.me/51958960254?text=${encodeURIComponent(mensaje)}`, '_blank');
 }
