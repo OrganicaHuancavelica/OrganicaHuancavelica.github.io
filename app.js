@@ -26,7 +26,7 @@ const productosPorCategoria = {
     'fresas': [
         { nombre: 'chocolate', precio: 9.50, imagen:'./images/fresas/fresas.png' },
         { nombre: 'vainilla', precio: 9.50, imagen:'./images/fresas/fresasV.png' },
-        { nombre: 'll', precio: 9.50, imagen:'./images/fresas/11-captura.png' }
+        { nombre: 'll', precio: 9.50, imagen:'./images/fresas/11-captura.jpg' }
 
     ],
     'sodas-heladas': [
