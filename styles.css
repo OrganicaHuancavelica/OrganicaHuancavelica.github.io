@@ -51,7 +51,11 @@
       opacity: 0;
     }
   }
-
+.title{
+    font-size:2em;
+    color:#1605a;
+    background-color:#ff862d;
+}
 .categorias {
     background-color: #e0f7fa;
     padding: 15px;
