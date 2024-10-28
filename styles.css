@@ -52,12 +52,14 @@
     }
   }
 .title{
+    font-family: "alegreya-sans", sans-serif;
+    text-aling:center;
     font-size:2em;
-    color:#1605a;
+    color:#ffd0a8 ;
     background-color:#ff862d;
 }
 .categorias {
-    background-color: #e0f7fa;
+    background-color: #01605a;
     padding: 15px;
     margin-bottom: 15px;  
 }
@@ -68,7 +70,7 @@
 
 button {
     padding: 10px 15px;
-    background-color: #4caf50;
+    background-color: #ff862d;
     color: white;
     border: none;
     cursor: pointer;
