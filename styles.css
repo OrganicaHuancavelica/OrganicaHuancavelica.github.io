@@ -116,12 +116,12 @@ button:hover {
     font-size: 0.9em;
     color: #388e3c;
 }
-.resNombre{
-   font-family: "alegreya-sans", sans-serif; 
-   color:#ffd0a8;
-   background-color:#ff862d;
-   padding:5px;
-    
+.resNombre {
+  font-family: "alegreya-sans", sans-serif;
+  color: #ffd0a8;
+  background-color: #ff862d;
+  padding: 5px;
+  width: fit-content;
 }
 .resumen-carrito {
     margin-top: 20px;
