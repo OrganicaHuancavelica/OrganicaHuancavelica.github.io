@@ -118,10 +118,10 @@ button:hover {
 }
 .resNombre {
   font-family: "alegreya-sans", sans-serif;
-  color: #ffd0a8;
   background-color: #ff862d;
   padding: 5px;
   width: fit-content;
+  border-radius:10px;
 }
 .resumen-carrito {
     margin-top: 20px;
