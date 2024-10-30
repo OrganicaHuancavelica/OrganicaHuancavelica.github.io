@@ -129,14 +129,14 @@ function finalizarPedido() {
         return;
     }
 
-    let pedido = carrito.map(item => `${item.nombre} - S/${item.precio.toFixed(2)}`).join(', ');
+    let pedido = carrito.map(item => `${item.nombre} - S/${item.precio.toFixed(2)}`).join('\n');
 
 
     let mensaje = `
-  **Nombre:** ${nombreUsuario}\n
-  **Pedido:**\n
-  ${pedido}\n
-  **Total:** S/${total.toFixed(2)}
+**Nombre:** ${nombreUsuario}\n
+**Pedido:**
+${pedido}
+**Total:** S/${total.toFixed(2)}
 `;
 
     window.open(`https://wa.me/51958960254?text=${encodeURIComponent(mensaje)}`, '_blank');
