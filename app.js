@@ -56,6 +56,11 @@ window.onload = function() {
         document.getElementById('preloader').style.display = 'none';
     }, 3000);
 };
+window.onbeforeunload = function(event) {
+    event.preventDefault();
+    event.returnValue = ''; // Algunos navegadores requieren esta línea para mostrar la alerta.
+    return 'Si refrescas la página, perderás los datos de tu pedido.';
+};
 
 function cargarProductos(categoria) {
     const productosDiv = document.getElementById('productos');
