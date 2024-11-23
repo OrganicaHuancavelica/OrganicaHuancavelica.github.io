@@ -116,7 +116,7 @@ function eliminarDelCarrito(index) {
     actualizarResumenCarrito();
 }
 
-function enviarPedido() {
+function finalizarPedido() {
 
     const nombreUsuario = document.getElementById('nombre').value;
 
