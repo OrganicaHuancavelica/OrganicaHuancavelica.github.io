@@ -24,7 +24,7 @@ const productosPorCategoria = {
         { nombre: 'Choco Menta', precio: 9.50, imagen:'./images/shakes/chocomenta.png'  }
     ],
     'fresas': [
-        { nombre: 'chocolate', precio: 9.50, imagen:'./images/fresas/fresas.png' },
+        { nombre: 'chocolate', precio: 9.50, imagen:'./images/fresas/fresas-con-chocolate.jpeg' },
         { nombre: 'vainilla', precio: 9.50, imagen:'./images/fresas/fresas-con-vainilla.jpeg' },
         { nombre: 'll', precio: 9.50, imagen:'./images/fresas/11-captura.jpg' }
 
