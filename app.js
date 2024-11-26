@@ -38,7 +38,7 @@ const productosPorCategoria = {
         { nombre: 'conazo', precio: 5.00, imagen:'./images/helados/conazo.png'  },
     ],
     'bebidas-frias': [
-        { nombre: 'Café Americano F', precio: 7.50, imagen:'./images/bebidasCalientes/CafeAmericano.png'},
+        { nombre: 'Café Americano F', precio: 7.50, imagen:'./images/bebidasCalientes/CafeAmericanoo.png'},
         { nombre: 'Orange Americano ', precio: 9.00, imagen:'./images/bebidasFrias/Aranangee.png'},
         { nombre: 'Capuccino F', precio: 9.50, imagen:'./images/bebidasCalientes/capucchinoo.png'},
         { nombre: 'Café Mocha F', precio: 9.50, imagen:'./images/bebidasCalientes/CafeMocchaa.png'},
