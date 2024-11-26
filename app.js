@@ -28,7 +28,7 @@ const productosPorCategoria = {
         { nombre: 'vainilla', precio: 9.50, imagen:'./images/fresas/fresa-con-vainilla.png' },
     ],
     'sodas-heladas': [
-        { nombre: 'sky soda', precio: 9.50, imagen:'./images/sodasHeladas/skysoda.jpeg' },
+        { nombre: 'sky soda', precio: 9.50, imagen:'./images/sodasHeladas/sky-soda.png' },
         { nombre: 'Tropical', precio:  7.00, imagen:'./images/sodasHeladas/tropical.jpeg'},
         { nombre: 'Paradise', precio: 7.00, imagen:'./images/sodasHeladas/paradise.jpeg' },
         { nombre: 'Galaxy', precio: 7.00, imagen:'./images/sodasHeladas/galaxy.png' },
