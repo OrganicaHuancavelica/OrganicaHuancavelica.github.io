@@ -18,7 +18,7 @@ const productosPorCategoria = {
     'shakes': [
         { nombre: 'Capuccino', precio: 9.50, imagen:'./images/shakes/Scapuccino.png' },
         { nombre: 'Oreo', precio: 9.50, imagen:'./images/shakes/oreo.png'  },
-        { nombre: 'Chocolate', precio: 9.50, imagen:'./images/shakes/chocolate.png'  },
+        { nombre: 'Chocolate', precio: 9.50, imagen:'./images/shakes/chocolate-shake.png'  },
         { nombre: 'Pink Drink', precio: 9.50, imagen:'./images/shakes/pink.png'  },
         { nombre: 'Caramel Café', precio: 9.50, imagen:'./images/shakes/caramel-cafe.png'  },
         { nombre: 'Choco Menta', precio: 9.50, imagen:'./images/shakes/menta.png'  }
