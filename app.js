@@ -47,10 +47,10 @@ const productosPorCategoria = {
         { nombre: 'Leche c/ chocolat', precio: 9.50 , imagen:'./images/bebidasFrias/leche.png'}
     ],
     'packs-desayuno': [
-        { nombre: 'Café Americano F', precio: 25.50, imagen:'./images/bebidasCalientes/duo-chocovaso.jpeg'},
-        { nombre: 'Orange Americano ', precio: 9.00, imagen:'./images/bebidasFrias/duo-cuchareable.jpeg'},
-        { nombre: 'Capuccino F', precio: 9.50, imagen:'./images/bebidasCalientes/duo-fresas-vainilla.jpeg'},
-        { nombre: 'Café Mocha F', precio: 9.50, imagen:'./images/bebidasCalientes/duo-pink-drink.jpeg'},
+        { nombre: 'Duo chocovaso', precio: 25.50, imagen:'./images/bebidasCalientes/duo-chocovaso.jpeg'},
+        { nombre: 'Duo Cuchareable ', precio: 9.00, imagen:'./images/bebidasCalientes/duo-cuchareable.jpeg'},
+        { nombre: 'Duo fresas con vainilla', precio: 9.50, imagen:'./images/bebidasCalientes/duo-fresas-vainilla.jpeg'},
+        { nombre: 'Duo Pink Drink', precio: 9.50, imagen:'./images/bebidasCalientes/duo-pink-drink.jpeg'},
         { nombre: 'Rosa y Chocolate', precio: 10.50, imagen:'./images/bebidasFrias/rosa.png'},
         { nombre: 'Matcha Milk', precio: 12.50, imagen:'./images/bebidasFrias/matchaa.png'},
         { nombre: 'Leche c/ chocolat', precio: 9.50 , imagen:'./images/bebidasFrias/leche.png'}
