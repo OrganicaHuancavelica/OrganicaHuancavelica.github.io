@@ -46,7 +46,7 @@ const productosPorCategoria = {
         { nombre: 'Matcha Milk', precio: 12.50, imagen:'./images/bebidasFrias/matchaa.png'},
         { nombre: 'Leche c/ chocolat', precio: 9.50 , imagen:'./images/bebidasFrias/leche.png'}
     ],
-    'pack-desayuno': [
+    'packs-desayuno': [
         { nombre: 'Café Americano F', precio: 25.50, imagen:'./images/bebidasCalientes/CafeAmericanoo.png'},
         { nombre: 'Orange Americano ', precio: 9.00, imagen:'./images/bebidasFrias/Aranangee.png'},
         { nombre: 'Capuccino F', precio: 9.50, imagen:'./images/bebidasCalientes/capucchinoo.png'},
