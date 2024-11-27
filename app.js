@@ -22,6 +22,7 @@ const productosPorCategoria = {
         { nombre: 'Pink Drink', precio: 9.50, imagen:'./images/shakes/pink-drink.png'  },
         { nombre: 'Caramel Café', precio: 9.50, imagen:'./images/shakes/caramel-cafe.png'  },
         { nombre: 'Menta', precio: 9.50, imagen:'./images/shakes/menta.png'  }
+        { nombre: 'Choco vaso adicional al shake', precio: 2.00, imagen:'./images/shakes/menta.png'  }
     ],
     'fresas': [
         { nombre: 'chocolate', precio: 9.50, imagen:'./images/fresas/fresa-con-chocolate.png' },
