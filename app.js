@@ -10,10 +10,10 @@ const productosPorCategoria = {
         { nombre: 'Mate', precio: 3.00,imagen:'./images/bebidasCalientes/matee.png' }
     ],
     'limonadas': [
-        { nombre: 'Cherry', precio: 5.00,imagen: './images/limonadas/l-cherry.jpg' },
-        { nombre: 'Mango', precio: 5.00,imagen: './images/limonadas/l-mango.jpg' },
+        { nombre: 'Cherry', precio: 5.00,imagen: './images/limonadas/l-limonada-cherry.jpg' },
+        { nombre: 'Mango', precio: 5.00,imagen: './images/limonadas/l-limonada-mango.jpg' },
         { nombre: 'Menta', precio: 5.00,imagen: './images/limonadas/l-menta.jpg' },
-        { nombre: 'Tradicional', precio: 4.50,imagen: './images/limonadas/l-limonada' }
+        { nombre: 'Tradicional', precio: 4.50,imagen: './images/limonadas/l-limonada.jpg' }
     ],
     'shakes': [
         { nombre: 'Capuccino', precio: 9.50, imagen:'./images/shakes/capuccino.png' },
