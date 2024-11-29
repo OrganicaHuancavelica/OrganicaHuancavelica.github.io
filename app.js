@@ -10,10 +10,10 @@ const productosPorCategoria = {
         { nombre: 'Mate', precio: 3.00,imagen:'./images/bebidasCalientes/matee.png' }
     ],
     'limonadas': [
-        { nombre: 'Cherry', precio: 5.00,imagen: './images/limonadas/limonadaCherry.png' },
-        { nombre: 'Mango', precio: 5.00,imagen: './images/limonadas/mango.png' },
-        { nombre: 'Menta', precio: 5.00,imagen: './images/limonadas/menta.png' },
-        { nombre: 'Tradicional', precio: 4.50,imagen: './images/limonadas/tradicional.png' }
+        { nombre: 'Cherry', precio: 5.00,imagen: './images/limonadas/l-cherry.jpg' },
+        { nombre: 'Mango', precio: 5.00,imagen: './images/limonadas/l-mango.jpg' },
+        { nombre: 'Menta', precio: 5.00,imagen: './images/limonadas/l-menta.jpg' },
+        { nombre: 'Tradicional', precio: 4.50,imagen: './images/limonadas/l-limonada' }
     ],
     'shakes': [
         { nombre: 'Capuccino', precio: 9.50, imagen:'./images/shakes/capuccino.png' },
@@ -29,10 +29,10 @@ const productosPorCategoria = {
         { nombre: 'vainilla', precio: 9.50, imagen:'./images/fresas/fresa-con-vainilla.png' },
     ],
     'sodas-heladas': [
-        { nombre: 'sky soda', precio: 9.50, imagen:'./images/sodasHeladas/sky-soda.png' },
-        { nombre: 'Tropical', precio:  7.00, imagen:'./images/sodasHeladas/tropical.jpeg'},
-        { nombre: 'Paradise', precio: 7.00, imagen:'./images/sodasHeladas/paradise.jpeg' },
-        { nombre: 'Galaxy', precio: 7.00, imagen:'./images/sodasHeladas/galaxy.png' },
+        { nombre: 'sky soda', precio: 9.50, imagen:'./images/sodasHeladas/sh-sky.jpg' },
+        { nombre: 'Tropical', precio:  7.00, imagen:'./images/sodasHeladas/sh-tropical.jpg'},
+        { nombre: 'Paradise', precio: 7.00, imagen:'./images/sodasHeladas/sh-paradise.jpg' },
+        { nombre: 'Galaxy', precio: 7.00, imagen:'./images/sodasHeladas/sh-galaxi.jpg' },
     ],
     'helados': [
         { nombre: 'cono', precio: 2.50, imagen:'./images/helados/1cono.png'  },
