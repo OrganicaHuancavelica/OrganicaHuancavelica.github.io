@@ -63,9 +63,9 @@ const productosPorCategoria = {
         { nombre: 'Duo Pink Drink', precio: 9.50, imagen:'./images/bebidasCalientes/duo-pink-drink.jpeg'},
     ],
     'Delivery': [
-        { nombre: 'Duo chocovaso', precio: 25.50, imagen:'./images/bebidasCalientes/duo-chocovaso.jpeg'},
+        { nombre: 'cono', precio: 2.50, imagen:'./images/helados/1cono.png'  },
+        { nombre: 'conazo', precio: 5.00, imagen:'./images/helados/conazo.png'  },
     ],
-
 
 };
 
