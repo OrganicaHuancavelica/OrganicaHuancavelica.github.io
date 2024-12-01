@@ -65,6 +65,12 @@ const productosPorCategoria = {
         { nombre: 'Matcha Milk', precio: 12.50, imagen:'./images/bebidasFrias/matchaa.png'},
         { nombre: 'Leche c/ chocolat', precio: 9.50 , imagen:'./images/bebidasFrias/leche.png'}
     ],
+    'Delivery': [
+        { nombre: 'Duo chocovaso', precio: 25.50, imagen:'./images/bebidasCalientes/duo-chocovaso.jpeg'},
+        { nombre: 'Duo Cuchareable ', precio: 9.00, imagen:'./images/bebidasCalientes/duo-cuchareable.jpeg'},
+
+    ],
+
 
 };
 
