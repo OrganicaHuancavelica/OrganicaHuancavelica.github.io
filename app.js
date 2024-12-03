@@ -59,9 +59,7 @@ const productosPorCategoria = {
         { nombre: 'Duo fresas con vainilla', precio: 9.50, imagen:'./images/bebidasCalientes/duo-fresas-vainilla.jpeg'},
         { nombre: 'Duo Pink Drink', precio: 9.50, imagen:'./images/bebidasCalientes/duo-pink-drink.jpeg'},
     ],
-    'Delivery': [
-        { nombre: 'cono', precio: 2.50, imagen:'./images/helados/1cono.png'  },
-        { nombre: 'conazo', precio: 5.00, imagen:'./images/helados/conazo.png'  },
+    'Delivery': [     
     ],
 
 };
@@ -155,4 +153,7 @@ ${pedido}
 `;
 
     window.open(`https://wa.me/51958960254?text=${encodeURIComponent(mensaje)}`, '_blank');
+}
+function Delivery() {
+    window.open(`https://www.pedidosya.com.pe/restaurantes/huancayo/organica-cafe-y-plantas-92e2f535-5f7d-4012-8a8c-471bfee516e7-menu);
 }
