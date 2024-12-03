@@ -154,7 +154,7 @@ ${pedido}
 
 function Delivery() {
     
-    window.open(`https://www.pedidosya.com.pe/restaurantes/huancayo/organica-cafe-y-plantas-92e2f535-5f7d-4012-8a8c-471bfee516e7-menu{encodeURIComponent(mensaje)}`, '_blank');
+    window.open(`https://www.pedidosya.com.pe/restaurantes/huancayo/organica-cafe-y-plantas-92e2f535-5f7d-4012-8a8c-471bfee516e7-menu{encodeURIComponent}`, '_blank');
 }   
     
 
