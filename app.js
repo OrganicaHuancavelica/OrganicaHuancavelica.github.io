@@ -29,7 +29,7 @@ const productosPorCategoria = {
         { nombre: 'vainilla', precio: 9.50, imagen:'./images/fresas/fresa-con-vainilla.png' },
     ],
     'sodas-heladas': [
-        { nombre: 'sky soda', precio: 9.50, imagen:'./images/sodasHeladas/sh-sky.jpg' },
+        { nombre: 'sky soda', precio: 7.00, imagen:'./images/sodasHeladas/sh-sky.jpg' },
         { nombre: 'Tropical', precio:  7.00, imagen:'./images/sodasHeladas/sh-tropical.jpg'},
         { nombre: 'Paradise', precio: 7.00, imagen:'./images/sodasHeladas/sh-paradise.jpg' },
         { nombre: 'Galaxy', precio: 7.00, imagen:'./images/sodasHeladas/sh-galaxi.jpg' },
@@ -48,10 +48,10 @@ const productosPorCategoria = {
         { nombre: 'Leche c/ chocolat', precio: 9.50 , imagen:'./images/bebidasFrias/leche.png'}
     ],
     'packs-desayuno': [
-        { nombre: 'Duo chocovaso', precio: 25.50, imagen:'./images/bebidasCalientes/duo-chocovaso.jpeg'},
-        { nombre: 'Duo Cuchareable ', precio: 9.00, imagen:'./images/bebidasCalientes/duo-cuchareable.jpeg'},
-        { nombre: 'Duo fresas con vainilla', precio: 9.50, imagen:'./images/bebidasCalientes/duo-fresas-vainilla.jpeg'},
-        { nombre: 'Duo Pink Drink', precio: 9.50, imagen:'./images/bebidasCalientes/duo-pink-drink.jpeg'},
+        { nombre: 'Duo chocovaso', precio: 29.00, imagen:'./images/bebidasCalientes/duo-chocovaso.jpeg'},
+        { nombre: 'Duo Cuchareable ', precio: 28.00, imagen:'./images/bebidasCalientes/duo-cuchareable.jpeg'},
+        { nombre: 'Duo fresas con vainilla', precio: 28.00, imagen:'./images/bebidasCalientes/duo-fresas-vainilla.jpeg'},
+        { nombre: 'Duo Pink Drink', precio: 28.00, imagen:'./images/bebidasCalientes/duo-pink-drink.jpeg'},
     ],
      'Pasteleria': [
         { nombre: 'Duo chocovaso', precio: 25.50, imagen:'./images/bebidasCalientes/duo-chocovaso.jpeg'},
@@ -154,7 +154,7 @@ ${pedido}
 
 function Delivery() {
     
-    window.open(`https://www.pedidosya.com.pe/restaurantes/huancayo/organica-cafe-y-plantas-92e2f535-5f7d-4012-8a8c-471bfee516e7-menu{encodeURIComponent}`, '_blank');
+    window.open(`https://www.pedidosya.com.pe/restaurantes/huancayo/organica-cafe-y-plantas-92e2f535-5f7d-4012-8a8c-471bfee516e7-menu`, '_blank');
 }   
     
 
