@@ -59,9 +59,6 @@ const productosPorCategoria = {
         { nombre: 'Duo fresas con vainilla', precio: 9.50, imagen:'./images/bebidasCalientes/duo-fresas-vainilla.jpeg'},
         { nombre: 'Duo Pink Drink', precio: 9.50, imagen:'./images/bebidasCalientes/duo-pink-drink.jpeg'},
     ],
-    'Delivery': [     
-    ],
-
 };
 
 window.onload = function() {
