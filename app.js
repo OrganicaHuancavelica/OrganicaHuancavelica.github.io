@@ -40,7 +40,7 @@ const productosPorCategoria = {
         { nombre: 'conazo', precio: 5.00, imagen:'./images/helados/conazo.png'  },
     ],
     'bebidas-frias': [
-        { nombre: 'Café Americano F', cafe con espuma de leche precio: 7.50, imagen:'./images/bebidasFrias/americano-frio.jpg'},
+        { nombre: 'Café Americano F', cafe con espuma de leche, precio: 7.50, imagen:'./images/bebidasFrias/americano-frio.jpg'},
         { nombre: 'Orange Americano ', precio: 9.00, imagen:'./images/bebidasFrias/orange-americano.jpg'},
         { nombre: 'Capuccino F', precio: 9.50, imagen:'./images/bebidasFrias/capuccino-frio.jpg'},
         { nombre: 'Café Mocha F', precio: 9.50, imagen:'./images/bebidasFrias/mocha-frio.jpg'},
