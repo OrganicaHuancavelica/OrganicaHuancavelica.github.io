@@ -1,19 +1,20 @@
 // Productos por categoría
 const productosPorCategoria = {
     'bebidas-calientes': [
-        { nombre: 'Café Americano', precio: 3.00,imagen: './images/bebidasCalientes/CafeAmericanoo.png' },
-        { nombre: 'Capuccino', precio: 4.50,imagen: './images/bebidasCalientes/capucchinoo.png' },
-        { nombre: 'Café Moccha', precio: 5.50,imagen: './images/bebidasCalientes/CafeMocchaa.png' },
+        { nombre: 'Café Americano', precio: 3.00,imagen: './images/bebidasCalientes/cafe-caliente.jpg' },
+        { nombre: 'Capuccino', precio: 4.50,imagen: './images/bebidasCalientes/capuccino-caliente.jpg' },
+        { nombre: 'Café Moccha', precio: 5.50,imagen: './images/bebidasCalientes/cafe-mocha.jpg' },
         { nombre: 'Café Bombón', precio: 5.50,imagen: './images/bebidasCalientes/CafeBombonn.png' },
-        { nombre: 'Café Caramel', precio: 5.50,imagen: './images/bebidasCalientes/CafeCaramell.png' },
-        { nombre: 'Leche con chocolate', precio: 5.50,imagen: './images/bebidasCalientes/lecheYchocolate.png' },
-        { nombre: 'Mate', precio: 3.00,imagen:'./images/bebidasCalientes/matee.png' }
+        { nombre: 'Café Caramel', precio: 5.50,imagen: './images/bebidasCalientes/caramel-caliente,jpg' },
+        { nombre: 'Leche con chocolate', precio: 5.50,imagen: './images/bebidasCalientes/leche-chocolate-caliente.jpg' },
+        { nombre: 'Mate', precio: 3.00,imagen:'./images/bebidasCalientes/mate-caliente.jpg' },
+        { nombre: 'Leche', precio: 5.00,imagen:'./images/bebidasCalientes/leche-caliente.webp' },
     ],
     'limonadas': [
         { nombre: 'Cherry', precio: 5.00,imagen: './images/limonadas/l-limonada-cherry.jpg' },
         { nombre: 'Mango', precio: 5.00,imagen: './images/limonadas/l-limonada-mango.jpg' },
         { nombre: 'Menta', precio: 5.00,imagen: './images/limonadas/l-menta.jpg' },
-        { nombre: 'Tradicional', precio: 4.50,imagen: './images/limonadas/l-limonada.jpg' }
+        { nombre: 'Tradicional', precio: 4.50,imagen: './images/limonadas/l-limonada.jpg' },
     ],
     'shakes': [
         { nombre: 'Capuccino', precio: 9.50, imagen:'./images/shakes/capuccino.png' },
@@ -39,13 +40,13 @@ const productosPorCategoria = {
         { nombre: 'conazo', precio: 5.00, imagen:'./images/helados/conazo.png'  },
     ],
     'bebidas-frias': [
-        { nombre: 'Café Americano F', precio: 7.50, imagen:'./images/bebidasCalientes/CafeAmericanoo.png'},
-        { nombre: 'Orange Americano ', precio: 9.00, imagen:'./images/bebidasFrias/Aranangee.png'},
-        { nombre: 'Capuccino F', precio: 9.50, imagen:'./images/bebidasCalientes/capucchinoo.png'},
-        { nombre: 'Café Mocha F', precio: 9.50, imagen:'./images/bebidasCalientes/CafeMocchaa.png'},
+        { nombre: 'Café Americano F', precio: 7.50, imagen:'./images/bebidasCalientes/americano-frio.jpg'},
+        { nombre: 'Orange Americano ', precio: 9.00, imagen:'./images/bebidasFrias/orange-americano.jpg'},
+        { nombre: 'Capuccino F', precio: 9.50, imagen:'./images/bebidasCalientes/capuccino-frio.jpg'},
+        { nombre: 'Café Mocha F', precio: 9.50, imagen:'./images/bebidasCalientes/mocha-frio.jpg'},
         { nombre: 'Rosa y Chocolate', precio: 10.50, imagen:'./images/bebidasFrias/rosa.png'},
-        { nombre: 'Matcha Milk', precio: 12.50, imagen:'./images/bebidasFrias/matchaa.png'},
-        { nombre: 'Leche c/ chocolat', precio: 9.50 , imagen:'./images/bebidasFrias/leche.png'}
+        { nombre: 'Matcha Milk', precio: 12.50, imagen:'./images/bebidasFrias/matcha-frio.jpg'},
+        { nombre: 'Leche c/ chocolat', precio: 9.50 , imagen:'./images/bebidasFrias/leche-con-chocolate-frio.jpg'}
     ],
     'packs-desayuno': [
         { nombre: 'Duo chocovaso', precio: 29.00, imagen:'./images/bebidasCalientes/duo-chocovaso.jpeg'},
