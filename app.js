@@ -2,19 +2,19 @@
 const productosPorCategoria = {
     'bebidas-calientes': [
         { nombre: 'Café Americano', precio: 3.00,imagen: './images/bebidasCalientes/cafe-caliente.jpg' },
-        { nombre: 'Capuccino', precio: 4.50,imagen: './images/bebidasCalientes/capuccino-caliente.jpg' },
-        { nombre: 'Café Moccha', precio: 5.50,imagen: './images/bebidasCalientes/cafe-mocha.jpg' },
-        { nombre: 'Café Bombón', precio: 5.50,imagen: './images/bebidasCalientes/CafeBombonn.png' },
-        { nombre: 'Café Caramel', precio: 5.50,imagen: './images/bebidasCalientes/caramel-caliente.jpg' },
+        { nombre: 'Capuccino', precio: 5.50,imagen: './images/bebidasCalientes/capuccino-caliente.jpg' },
+        { nombre: 'Café Moccha', precio: 6.00,imagen: './images/bebidasCalientes/cafe-mocha.jpg' },
+        { nombre: 'Café Bombón', precio: 6.00,imagen: './images/bebidasCalientes/CafeBombonn.png' },
+        { nombre: 'Café Caramel', precio: 6.00,imagen: './images/bebidasCalientes/caramel-caliente.jpg' },
         { nombre: 'Leche con chocolate', precio: 5.50,imagen: './images/bebidasCalientes/leche-chocolate-caliente.jpg' },
         { nombre: 'Mate', precio: 3.00,imagen:'./images/bebidasCalientes/mate-caliente.jpg' },
         { nombre: 'Leche', precio: 5.00,imagen:'./images/bebidasCalientes/leche-caliente.webp' },
     ],
     'limonadas': [
-        { nombre: 'Cherry', precio: 5.00,imagen: './images/limonadas/l-limonada-cherry.jpg' },
-        { nombre: 'Mango', precio: 5.00,imagen: './images/limonadas/l-limonada-mango.jpg' },
-        { nombre: 'Menta', precio: 5.00,imagen: './images/limonadas/l-menta.jpg' },
-        { nombre: 'Tradicional', precio: 4.50,imagen: './images/limonadas/l-limonada.jpg' },
+        { nombre: 'Cherry', precio: 5.50,imagen: './images/limonadas/l-limonada-cherry.jpg' },
+        { nombre: 'Mango', precio: 5.50,imagen: './images/limonadas/l-limonada-mango.jpg' },
+        { nombre: 'Menta', precio: 5.50,imagen: './images/limonadas/l-menta.jpg' },
+        { nombre: 'Tradicional', precio: 5.50,imagen: './images/limonadas/l-limonada.jpg' },
     ],
     'shakes': [
         { nombre: 'Capuccino', precio: 9.50, imagen:'./images/shakes/capuccino.png' },
@@ -26,8 +26,8 @@ const productosPorCategoria = {
         { nombre: 'Chocovaso-adicional', precio: 2.00, imagen:'./images/shakes/choco-vaso.jpeg'  },
     ],
     'fresas': [
-        { nombre: 'chocolate', precio: 9.50, imagen:'./images/fresas/fresa-con-chocolate.png' },
-        { nombre: 'vainilla', precio: 9.50, imagen:'./images/fresas/fresa-con-vainilla.png' },
+        { nombre: 'chocolate', precio: 10.00, imagen:'./images/fresas/fresa-con-chocolate.png' },
+        { nombre: 'vainilla', precio: 10.00, imagen:'./images/fresas/fresa-con-vainilla.png' },
     ],
     'sodas-heladas': [
         { nombre: 'sky soda', precio: 7.00, imagen:'./images/sodasHeladas/sh-sky.jpg' },
@@ -36,12 +36,12 @@ const productosPorCategoria = {
         { nombre: 'Galaxy', precio: 7.00, imagen:'./images/sodasHeladas/sh-galaxi.jpg' },
     ],
     'helados': [
-        { nombre: 'cono', precio: 2.50, imagen:'./images/helados/1cono.png'  },
+        { nombre: 'cono', precio: 3.00, imagen:'./images/helados/1cono.png'  },
         { nombre: 'conazo', precio: 5.00, imagen:'./images/helados/conazo.png'  },
     ],
     'bebidas-frias': [
-        { nombre: 'Café Americano F', precio: 7.50, imagen:'./images/bebidasFrias/americano-frio.jpg'},
-        { nombre: 'Orange Americano ', precio: 9.00, imagen:'./images/bebidasFrias/orange-americano.jpg'},
+        { nombre: 'Café Americano F', precio: 8.50, imagen:'./images/bebidasFrias/americano-frio.jpg'},
+        { nombre: 'Orange Americano ', precio: 9.50, imagen:'./images/bebidasFrias/orange-americano.jpg'},
         { nombre: 'Capuccino F', precio: 9.50, imagen:'./images/bebidasFrias/capuccino-frio.jpg'},
         { nombre: 'Café Mocha F', precio: 9.50, imagen:'./images/bebidasFrias/mocha-frio.jpg'},
         { nombre: 'Rosa y Chocolate', precio: 10.50, imagen:'./images/bebidasFrias/rosa.png'},
