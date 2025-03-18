@@ -1,78 +1,116 @@
 // Productos por categoría
 const productosPorCategoria = {
     'bebidas-calientes': [
-        { nombre: 'Café Americano', precio: 4.00,imagen: './images/bebidasCalientes/Cafe-Americano.jpeg' },
-        { nombre: 'Capuccino', precio: 6.00,imagen: './images/bebidasCalientes/Capuccino.jpeg' },
-        { nombre: 'Café Moccha', precio: 7.00,imagen: './images/bebidasCalientes/Moccha-Caliente.jpeg' },
-        { nombre: 'Café Bombón', precio: 7.00,imagen: './images/bebidasCalientes/Cafe-Bombon.jpeg' },
-        { nombre: 'Café Caramel', precio: 7.00,imagen: './images/bebidasCalientes/Cafe-Caramel.jpeg' },
+        { nombre: 'Café Americano', precio: 4.50,imagen: './images/bebidasCalientes/Cafe-Americano.jpeg' },
+        { nombre: 'Café Expreso', precio: 4.00,imagen: './images/bebidasCalientes/Cafe-Expresso.jpg' },
+        { nombre: 'Capuccino', precio: 6.50,imagen: './images/bebidasCalientes/Cafe-Capuccino.jpg' },
+        { nombre: 'Matcha Milk', precio: 8.50,imagen: './images/bebidasCalientes/Capuccino.jpeg' },
+        { nombre: 'Café Mocca', precio: 7.50,imagen: './images/bebidasCalientes/Moccha-Caliente.jpeg' },
+        { nombre: 'Café Bombón', precio: 7.50,imagen: './images/bebidasCalientes/Cafe-Bombon.jpeg' },
+        { nombre: 'Café Caramel', precio: 7.50,imagen: './images/bebidasCalientes/Cafe-Caramel.jpeg' },
         { nombre: 'Submarino', precio: 7.50,imagen: './images/bebidasCalientes/Submarino.jpeg' },
-        { nombre: 'Chocolate', precio: 5.50,imagen:'./images/bebidasCalientes/Chocolate.jpg' },
-        { nombre: 'Mate', precio: 3.00,imagen:'./images/bebidasCalientes/Mate.jpg' },
+        { nombre: 'Chocolatada', precio: 5.50,imagen:'./images/bebidasCalientes/Chocolate.jpg' },
+        { nombre: 'Té de flor de Jamaica', precio: 7.00,imagen: './images/bebidasCalientes/Te-Jamaica.jpg' },
+        { nombre: 'Té Verde', precio: 6.50,imagen: './images/bebidasCalientes/Te-Verde.jpg' },
+        { nombre: 'Mate', precio: 3.50,imagen:'./images/bebidasCalientes/Mate.jpg' },
         { nombre: 'Leche', precio: 5.00,imagen:'./images/bebidasCalientes/Leche.jpeg' },
     ],
+
     'limonadas': [
-        { nombre: 'Cherry', precio: 5.50,imagen: './images/limonadas/l-limonada-cherry.jpg' },
-        { nombre: 'Mango', precio: 5.50,imagen: './images/limonadas/l-limonada-mango.jpg' },
-        { nombre: 'Menta', precio: 5.50,imagen: './images/limonadas/l-menta.jpg' },
-        { nombre: 'Tradicional', precio: 5.50,imagen: './images/limonadas/l-limonada.jpg' },
+        { nombre: 'Cherry', precio: 6.00,imagen: './images/limonadas/l-limonada-cherry.jpg' },
+        { nombre: 'Mango', precio: 6.00,imagen: './images/limonadas/l-limonada-mango.jpg' },
+        { nombre: 'Menta', precio: 6.00,imagen: './images/limonadas/l-menta.jpg' },
+        { nombre: 'Tradicional', precio: 6.00,imagen: './images/limonadas/l-limonada.jpg' },
+        { nombre: 'Jamaica', precio: 8.50,imagen: './images/limonadas/l-limonada-fresa.jpg' },
     ],
+
     'frappe': [
-        { nombre: 'Capuccino', precio: 9.50, imagen:'./images/Frappe/capuccino.png' },
-        { nombre: 'Oreo', precio: 9.50, imagen:'./images/Frappe/oreo-shake.png'  },
-        { nombre: 'Chocolate', precio: 9.50, imagen:'./images/Frappe/chocolate-shake.png'  },
-        { nombre: 'Pink Drink', precio: 9.50, imagen:'./images/Frappe/pink-drink.png'  },
-        { nombre: 'Caramel Café', precio: 9.50, imagen:'./images/Frappe/caramel-cafe.png'  },
-        { nombre: 'Choco Menta', precio: 9.50, imagen:'./images/Frappe/choco-menta.png'  },
+        { nombre: 'Capuccino', precio: 9.90, imagen:'./images/Frappe/capuccino.png' },
+        { nombre: 'Oreo', precio: 9.90, imagen:'./images/Frappe/oreo-shake.png'  },
+        { nombre: 'Fresa', precio: 9.90, imagen:'./images/Frappe/oreo-shake.png'  },
+        { nombre: 'Matcha Frappe', precio: 12.00, imagen:'./images/Frappe/oreo-shake.png'  },
+        { nombre: 'Chocolate', precio: 9.90, imagen:'./images/Frappe/chocolate-shake.png'  },
+        { nombre: 'Caramel Café', precio: 10.50, imagen:'./images/Frappe/caramel-cafe.png'  },
+        { nombre: 'Choco Menta', precio: 9.90, imagen:'./images/Frappe/choco-menta.png'  },
     ],
+
     'fresas': [
-        { nombre: 'Chocolate con Fresa', precio: 10.00, imagen:'./images/fresas/fresa-con-chocolate.png' },
+        { nombre: 'Chocolate', precio: 10.00, imagen:'./images/fresas/fresa-con-chocolate.png' },
         { nombre: 'Vainilla', precio: 10.00, imagen:'./images/fresas/fresa-con-vainilla.png' },
-        { nombre: 'Fudge', precio: 10.00, imagen:'./images/fresas/fresa-con-fudge.png' },
+        { nombre: 'Fugde', precio: 10.00, imagen:'./images/fresas/fresa-con-fudge.png' },
     ],
-    'sodas-heladas': [
-        { nombre: 'Sky soda', precio: 7.00, imagen:'./images/SodasconHielo/sky.png' },
-        { nombre: 'Hawai', precio:  7.00, imagen:'./images/SodasconHielo/hawai.png'},
-        { nombre: 'Galaxy', precio: 7.00, imagen:'./images/SodasconHielo/galaxi.png' },
+
+    'cocktails': [
+        { nombre: 'Sky soda', precio: 8.00, imagen:'./images/SodasconHielo/sky.png' },
+        { nombre: 'Hawai', precio:  8.00, imagen:'./images/SodasconHielo/hawai.png'},
+        { nombre: 'Galaxy', precio: 8.00, imagen:'./images/SodasconHielo/galaxi.png' },
+        {nombre: 'Agregar Alcohol', precio: 3.00, imagen:'./images/SodasconHielo/galaxi.png' },
     ],
+
     'helados': [
         { nombre: 'Cono', precio: 2.50, imagen:'./images/helados/cono.png'  },
         { nombre: 'Conazo', precio: 5.00, imagen:'./images/helados/conazo.png'  },
     ],
+
     'bebidas-frias': [
-        { nombre: 'Americano Frío', precio: 8.50, imagen:'./images/bebidasFrias/americano-frio.jpg'},
-        { nombre: 'Orange Americano ', precio: 8.50, imagen:'./images/bebidasFrias/orange-americano.jpg'},
-        { nombre: 'Capuccino Frío', precio: 9.50, imagen:'./images/bebidasFrias/capuccino-frio.jpg'},
-        { nombre: 'Café Mocha Frío', precio: 9.50, imagen:'./images/bebidasFrias/moccha-frio.jpg'},
-        { nombre: 'Rosa y Chocolate', precio: 10.50, imagen:'./images/bebidasFrias/rosa-chocolate.jpeg'},
-        { nombre: 'Leche con chocolate', precio: 9.50 , imagen:'./images/bebidasFrias/leche-chocolate.jpg'},
-        { nombre: 'Café y Blueberry Milk', precio: 10.50 , imagen:'./images/bebidasFrias/Cafe-BluerryMilk.jpg'},
+        { nombre: 'Americano Frío', precio: 6.50, imagen:'./images/bebidasFrias/americano-frio.jpg'},
+        { nombre: 'Orange Americano ', precio: 7.50, imagen:'./images/bebidasFrias/orange-americano.jpg'},
+        { nombre: 'Capuccino Frío', precio: 8.50, imagen:'./images/bebidasFrias/capuccino-frio.jpg'},
+        { nombre: 'Café Mocha Frío', precio: 8.50, imagen:'./images/bebidasFrias/moccha-frio.jpg'},
+        { nombre: 'Blueberry Milk', precio: 9.50 , imagen:'./images/bebidasFrias/Cafe-BluerryMilk.jpg'},
+        { nombre: 'Mango Latte', precio: 10.50, imagen:'./images/Matcha/Matcha-Milk.jpg'},
+        { nombre: 'Fresa Milk', precio: 10.50, imagen:'./images/Matcha/Matcha-Milk.jpg'},
     ],
-    'duo-flores': [
+
+    'regalos': [
         { nombre: 'Duo chocovaso', precio: 29.00, imagen:'./images/Duoflores/duo-chocovaso.jpeg'},
         { nombre: 'Duo Cuchareable ', precio: 28.00, imagen:'./images/Duoflores/duo-cuchareable.jpeg'},
         { nombre: 'Duo fresas con vainilla', precio: 28.00, imagen:'./images/Duoflores/duo-fresas-vainilla.jpeg'},
         { nombre: 'Duo Pink Drink', precio: 28.00, imagen:'./images/Duoflores/duo-pink-drink.jpeg'},
     ],
+
     'matcha': [
-        { nombre: 'Matcha Milk', precio: 12.50, imagen:'./images/Matcha/Matcha-Milk.jpg'},
-        { nombre: 'Blueberry Matcha', precio: 14.50, imagen:'./images/Matcha/Blueberry-Matcha.jpg'},
-        { nombre: 'Matcha Pink Milk', precio: 15.50, imagen:'./images/Matcha/Matcha-Pink-Milk.jpg'},
-        { nombre: 'Limonada Matcha', precio: 12.50, imagen:'./images/Matcha/Limonada-Matcha.jpg'},
-        { nombre: 'Matcha con mango', precio: 14.50, imagen:'./images/Matcha/Matcha-Mango.jpg'},
+        { nombre: 'Matcha Milk', precio: 10.50, imagen:'./images/Matcha/Matcha-Milk.jpg'},
+        { nombre: 'Orange Matcha', precio: 10.50, imagen:'./images/Matcha/Matcha-Milk.jpg'},
+        { nombre: 'Blueberry Matcha', precio: 11.00, imagen:'./images/Matcha/Blueberry-Matcha.jpg'},
+        { nombre: 'Mango Matcha', precio: 11.00, imagen:'./images/Matcha/Matcha-Mango.jpg'},
+        { nombre: 'Matcha y Fresa', precio: 11.00, imagen:'./images/Matcha/Matcha-Milk.jpg'},
     ],
+
     'naranja-miel': [
-        { nombre: 'Naranja con Miel Caliente', precio: 11.50, imagen:'./images/NaranjaconMiel/Naranja-Miel.jpg'},
+        { nombre: 'Naranja con Miel', precio: 11.50, imagen:'./images/NaranjaconMiel/Naranja-Miel.jpg'},
     ],
-    'cuchareables': [
-        { nombre: 'Cuchareables (consultar sabores)', precio: 9.50, imagen:'./images/Cuchareables/Cuchareables.jpg'},
-    ],
-    'postres': [
-        { nombre: 'Torta de Chocolate', precio: 7.00, imagen:'./images/Postres/Torta-Chocolate.jpg'},
-        { nombre: 'Torta de Chocolate con Helado', precio: 8.50, imagen:'./images/Postres/Chocolate-Helado.jpg'},
+
+    'pasteles': [
+        { nombre: 'Torta de Chocolate/Fresa', precio: 8.00, imagen:'./images/Postres/Torta-Chocolate.jpg'},
+        { nombre: 'Torta de Chocolate', precio: 7.00, imagen:'./images/Postres/Chocolate-Helado.jpg'},
         { nombre: 'Torta del Dia (porsión)', precio: 7.00, imagen:'./images/Postres/Torta-Porcion.jpg'},
-        { nombre: 'Empanada', precio: 5.00, imagen:'./images/Postres/Empanada.jpg'},
-        { nombre: 'Sanwich, Jamón y Queso', precio: 7.00, imagen:'./images/Postres/Sandwich-Jamon-Queso.jpg'},
+    ],
+
+    'empanada': [
+        { nombre: 'Empanada de Pollo', precio: 6.00, imagen:'./images/Postres/Torta-Chocolate.jpg'},
+        { nombre: 'Empanada de Carne', precio: 6.00, imagen:'./images/Postres/Chocolate-Helado.jpg'},
+    ],
+
+    'jugos-fruta': [
+        { nombre: 'Fresa', precio: 7.00, imagen:'./images/Postres/Torta-Chocolate.jpg'},
+        { nombre: 'Papaya', precio: 7.00, imagen:'./images/Postres/Chocolate-Helado.jpg'},
+        { nombre: 'Naranja', precio: 7.00, imagen:'./images/Postres/Torta-Porcion.jpg'},
+        { nombre: 'Mango', precio: 7.00, imagen:'./images/Postres/Empanada.jpg'},
+    ],
+
+    'waffles': [
+        { nombre: 'Waffles con Sirup de Caramelo', precio: 8.00, imagen:'./images/Duoflores/duo-chocovaso.jpeg'},
+        { nombre: 'Waffles con Fruta ', precio: 10.50, imagen:'./images/Duoflores/duo-cuchareable.jpeg'},
+        { nombre: 'Waffles con helado', precio: 10.50, imagen:'./images/Duoflores/duo-fresas-vainilla.jpeg'},
+        { nombre: 'Waffles con Fruta y Helado', precio: 12.00, imagen:'./images/Duoflores/duo-pink-drink.jpeg'},
+    ],
+
+    'club-sandwich': [
+        { nombre: 'Jamón y Queso', precio: 7.00, imagen:'./images/Postres/Sandwich-Jamon-Queso.jpg'},
+        { nombre: 'Pollo', precio: 8.00, imagen:'./images/Postres/Sandwich-Jamon-Queso.jpg'},
+        { nombre: 'Hawaiana', precio: 8.00, imagen:'./images/Postres/Sandwich-Jamon-Queso.jpg'},
+        { nombre: 'Palta', precio: 7.00, imagen:'./images/Duoflores/duo-pink-drink.jpeg'},
     ],
 };
 
