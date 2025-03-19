@@ -21,7 +21,7 @@ const productosPorCategoria = {
         { nombre: 'Mango', precio: 6.00,imagen: './images/limonadas/l-limonada-mango.jpg' },
         { nombre: 'Menta', precio: 6.00,imagen: './images/limonadas/l-menta.jpg' },
         { nombre: 'Tradicional', precio: 6.00,imagen: './images/limonadas/l-limonada.jpg' },
-        { nombre: 'Jamaica', precio: 8.50,imagen: './images/limonadas/l-limonada-fresa.jpg' },
+        { nombre: 'Jamaica', precio: 8.50,imagen: './images/limonadas/l-jamaica.jpg' },
     ],
 
     'frappe': [
