@@ -25,7 +25,7 @@ const productosPorCategoria = {
     ],
 
     'frappe': [
-        { nombre: 'Capuccino', precio: 9.90, imagen:'./images/Frappe/capuccino.png' },
+        { nombre: 'Capuccino', precio: 9.90, imagen:'./images/Frappe/capuccino.jpg' },
         { nombre: 'Oreo', precio: 9.90, imagen:'./images/Frappe/oreo-shake.png'  },
         { nombre: 'Fresa', precio: 9.90, imagen:'./images/Frappe/oreo-shake.png'  },
         { nombre: 'Matcha Frappe', precio: 12.00, imagen:'./images/Frappe/oreo-shake.png'  },
