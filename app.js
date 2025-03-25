@@ -17,34 +17,34 @@ const productosPorCategoria = {
     ],
 
     'limonadas': [
-        { nombre: 'Cherry', precio: 6.00,imagen: './images/limonadas/l-limonada-cherry.jpg' },
-        { nombre: 'Mango', precio: 6.00,imagen: './images/limonadas/l-limonada-mango.jpg' },
-        { nombre: 'Menta', precio: 6.00,imagen: './images/limonadas/l-menta.jpg' },
-        { nombre: 'Tradicional', precio: 6.00,imagen: './images/limonadas/l-limonada.jpg' },
-        { nombre: 'Jamaica', precio: 8.50,imagen: './images/limonadas/l-jamaica.jpg' },
+        { nombre: 'Limonada de Cherry', precio: 6.00,imagen: './images/limonadas/l-limonada-cherry.jpg' },
+        { nombre: 'Limonada de Mango', precio: 6.00,imagen: './images/limonadas/l-limonada-mango.jpg' },
+        { nombre: 'Limonada de Menta', precio: 6.00,imagen: './images/limonadas/l-menta.jpg' },
+        { nombre: 'Limonada Tradicional', precio: 6.00,imagen: './images/limonadas/l-limonada.jpg' },
+        { nombre: 'Limonada de Jamaica', precio: 8.50,imagen: './images/limonadas/l-jamaica.jpg' },
     ],
 
     'frappe': [
-        { nombre: 'Capuccino', precio: 9.90, imagen:'./images/Frappe/capuccino.jpg' },
-        { nombre: 'Oreo', precio: 9.90, imagen:'./images/Frappe/oreo.jpg'  },
-        { nombre: 'Fresa', precio: 9.90, imagen:'./images/Frappe/fresa.jpg'  },
+        { nombre: 'Frappe de Capuccino', precio: 9.90, imagen:'./images/Frappe/capuccino.jpg' },
+        { nombre: 'Frappe de Oreo', precio: 9.90, imagen:'./images/Frappe/oreo.jpg'  },
+        { nombre: 'Frappe de Fresa', precio: 9.90, imagen:'./images/Frappe/fresa.jpg'  },
         { nombre: 'Matcha Frappe', precio: 12.00, imagen:'./images/Frappe/matcha.jpg'  },
-        { nombre: 'Chocolate', precio: 9.90, imagen:'./images/Frappe/chocolate.jpg'  },
-        { nombre: 'Caramel Café', precio: 10.50, imagen:'./images/Frappe/caramel-cafe.jpg'  },
-        { nombre: 'Choco Menta', precio: 9.90, imagen:'./images/Frappe/choco-menta.png'  },
+        { nombre: 'Frappe de Chocolate', precio: 9.90, imagen:'./images/Frappe/chocolate.jpg'  },
+        { nombre: 'Frappe de Caramel Café', precio: 10.50, imagen:'./images/Frappe/caramel-cafe.jpg'  },
+        { nombre: 'Frappe de Choco Menta', precio: 9.90, imagen:'./images/Frappe/chocomenta.jpg'  },
     ],
 
     'fresas': [
-        { nombre: 'Chocolate', precio: 10.00, imagen:'./images/fresas/fresa-con-chocolate.png' },
-        { nombre: 'Vainilla', precio: 10.00, imagen:'./images/fresas/fresa-con-vainilla.png' },
-        { nombre: 'Fugde', precio: 10.00, imagen:'./images/fresas/fresa-con-fudge.png' },
+        { nombre: 'Fresa con Chocolate', precio: 10.00, imagen:'./images/fresas/chocolate.jpg' },
+        { nombre: 'Fresa con Vainilla', precio: 10.00, imagen:'./images/fresas/vainilla.jpg' },
+        { nombre: 'Fresa con Fugde', precio: 10.00, imagen:'./images/fresas/fresa-con-fudge.png' },
     ],
 
     'cocktails': [
-        { nombre: 'Sky soda', precio: 8.00, imagen:'./images/SodasconHielo/sky.png' },
-        { nombre: 'Hawai', precio:  8.00, imagen:'./images/SodasconHielo/hawai.png'},
+        { nombre: 'Sky soda', precio: 8.00, imagen:'./images/SodasconHielo/sky-blue.jpg' },
+        { nombre: 'Hawai', precio:  8.00, imagen:'./images/SodasconHielo/hawai.jpg'},
         { nombre: 'Galaxy', precio: 8.00, imagen:'./images/SodasconHielo/galaxi.png' },
-        {nombre: 'Agregar Alcohol', precio: 3.00, imagen:'./images/SodasconHielo/galaxi.png' },
+        {nombre: 'Agregar Alcohol', precio: 3.00, imagen:'./images/SodasconHielo/alcohol.jpg' },
     ],
 
     'helados': [
@@ -93,10 +93,10 @@ const productosPorCategoria = {
     ],
 
     'jugos-fruta': [
-        { nombre: 'Fresa', precio: 7.00, imagen:'./images/Jugos/fresa.jpg'},
-        { nombre: 'Papaya', precio: 7.00, imagen:'./images/Jugos/papaya.jpg'},
-        { nombre: 'Naranja', precio: 7.00, imagen:'./images/Jugos/naranja.jpg'},
-        { nombre: 'Mango', precio: 7.00, imagen:'./images/Jugos/mango.jpg'},
+        { nombre: 'Jugo de Fresa', precio: 7.00, imagen:'./images/Jugos/fresa.jpg'},
+        { nombre: 'Jugo de Papaya', precio: 7.00, imagen:'./images/Jugos/papaya.jpg'},
+        { nombre: 'Jugo de Naranja', precio: 7.00, imagen:'./images/Jugos/naranja.jpg'},
+        { nombre: 'Jugo de Mango', precio: 7.00, imagen:'./images/Jugos/mango.jpg'},
     ],
 
     'waffles': [
@@ -107,10 +107,10 @@ const productosPorCategoria = {
     ],
 
     'club-sandwich': [
-        { nombre: 'Jamón y Queso', precio: 7.00, imagen:'./images/Sandwich/Sandwich-Jamon-Queso.jpg'},
-        { nombre: 'Pollo', precio: 8.00, imagen:'./images/Sandwich/Sandwich-Jamon-Queso.jpg'},
-        { nombre: 'Hawaiana', precio: 8.00, imagen:'./images/Sandwich/Sandwich-Jamon-Queso.jpg'},
-        { nombre: 'Palta', precio: 7.00, imagen:'./images/Sandwich/palta.jpg'},
+        { nombre: 'Sandwich de Jamón y Queso', precio: 7.00, imagen:'./images/Sandwich/Sandwich-Jamon-Queso.jpg'},
+        { nombre: 'Sandwich de Pollo', precio: 8.00, imagen:'./images/Sandwich/pollo.jpg'},
+        { nombre: 'Sandwich Hawaiana', precio: 8.00, imagen:'./images/Sandwich/hawaiana.jpg'},
+        { nombre: 'Sandwich con Palta', precio: 7.00, imagen:'./images/Sandwich/palta.jpg'},
     ],
 };
 
