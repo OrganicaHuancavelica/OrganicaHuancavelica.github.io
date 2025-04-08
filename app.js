@@ -41,10 +41,10 @@ const productosPorCategoria = {
     ],
 
     'cocktails': [
-        { nombre: 'Sky soda', precio: 8.00, imagen:'./images/SodasconHielo/sky-blue.jpg' },
+        { nombre: 'Sky Soda', precio: 8.00, imagen:'./images/SodasconHielo/sky-blue.jpg' },
         { nombre: 'Hawai', precio:  8.00, imagen:'./images/SodasconHielo/hawai.jpg'},
         { nombre: 'Galaxy', precio: 8.00, imagen:'./images/SodasconHielo/galaxi.png' },
-        {nombre: 'Agregar Alcohol', precio: 3.00, imagen:'./images/SodasconHielo/alcohol.jpg' },
+        {nombre: 'Agregar alcohol', precio: 3.00, imagen:'./images/SodasconHielo/alcohol.jpg' },
     ],
 
     'helados': [
@@ -84,7 +84,10 @@ const productosPorCategoria = {
     'pasteles': [
         { nombre: 'Torta de Chocolate/Fresa', precio: 8.00, imagen:'./images/Postres/Torta-Chocolate.jpg'},
         { nombre: 'Torta de Chocolate', precio: 7.00, imagen:'./images/Postres/Chocolate-Helado.jpg'},
-        { nombre: 'Torta del Dia (porsión)', precio: 7.00, imagen:'./images/Postres/Torta-Porcion.jpg'},
+        { nombre: 'Torta del Día (porción)', precio: 7.00, imagen:'./images/Postres/Torta-Porcion.jpg'},
+        { nombre: 'Carrot Cake', precio: 8.00, imagen:'./images/Postres/Carrot Cake.jpeg'},
+        { nombre: 'Cheesecake New Yorck', precio: 8.00, imagen:'./images/Postres/Cheesecake New Yorck.jpeg'},
+        { nombre: 'Rollo de Canela', precio: 6.00, imagen:'./images/Postres/Rollo de Canela.jpeg'},
     ],
 
     'empanada': [
@@ -100,17 +103,17 @@ const productosPorCategoria = {
     ],
 
     'waffles': [
-        { nombre: 'Waffles con Sirup de Caramelo', precio: 8.00, imagen:'./images/Waffles/caramelo.jpg'},
-        { nombre: 'Waffles con Fruta ', precio: 10.50, imagen:'./images/Waffles/frutas.jpg'},
-        { nombre: 'Waffles con helado', precio: 10.50, imagen:'./images/Waffles/helado.jpg'},
+        { nombre: 'Waffles con Syrup de Caramelo', precio: 8.00, imagen:'./images/Waffles/caramelo.jpg'},
+        { nombre: 'Waffles con Fruta', precio: 10.50, imagen:'./images/Waffles/frutas.jpg'},
+        { nombre: 'Waffles con Helado', precio: 10.50, imagen:'./images/Waffles/helado.jpg'},
         { nombre: 'Waffles con Fruta y Helado', precio: 12.00, imagen:'./images/Waffles/fruta-helado.jpg'},
     ],
 
     'club-sandwich': [
-        { nombre: 'Sandwich de Jamón y Queso', precio: 7.00, imagen:'./images/Sandwich/Sandwich-Jamon-Queso.jpg'},
-        { nombre: 'Sandwich de Pollo', precio: 8.00, imagen:'./images/Sandwich/pollo.jpg'},
-        { nombre: 'Sandwich Hawaiana', precio: 8.00, imagen:'./images/Sandwich/hawaiana.jpg'},
-        { nombre: 'Sandwich con Palta', precio: 7.00, imagen:'./images/Sandwich/palta.jpg'},
+        { nombre: 'Sándwich de Jamón y Queso', precio: 7.00, imagen:'./images/Sandwich/Sandwich-Jamon-Queso.jpg'},
+        { nombre: 'Sándwich de Pollo', precio: 8.00, imagen:'./images/Sandwich/pollo.jpg'},
+        { nombre: 'Sándwich Hawaiano', precio: 8.00, imagen:'./images/Sandwich/hawaiana.jpg'},
+        { nombre: 'Sándwich con Palta', precio: 7.00, imagen:'./images/Sandwich/palta.jpg'},
     ],
 };
 
@@ -209,4 +212,3 @@ function Delivery() {
     
     window.open(`https://www.pedidosya.com.pe/restaurantes/huancayo/organica-cafe-y-plantas-92e2f535-5f7d-4012-8a8c-471bfee516e7-menu`, '_blank');
 }
-    
