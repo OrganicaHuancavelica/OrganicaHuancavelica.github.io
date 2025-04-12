@@ -103,14 +103,14 @@ const productosPorCategoria = {
     ],
 
     'waffles': [
-        { nombre: 'Waffles con Syrup de Caramelo', precio: 8.00, imagen:'./images/Waffles/caramelo.jpg'},
-        { nombre: 'Waffles con Fruta', precio: 10.50, imagen:'./images/Waffles/frutas.jpg'},
-        { nombre: 'Waffles con Helado', precio: 10.50, imagen:'./images/Waffles/helado.jpg'},
+        { nombre: 'Waffles con Syrup de Caramelo', precio: 9.00, imagen:'./images/Waffles/caramelo.jpg'},
+        { nombre: 'Waffles con Fruta', precio: 11.00, imagen:'./images/Waffles/frutas.jpg'},
+        { nombre: 'Waffles con Helado', precio: 11.00, imagen:'./images/Waffles/helado.jpg'},
         { nombre: 'Waffles con Fruta y Helado', precio: 12.00, imagen:'./images/Waffles/fruta-helado.jpg'},
     ],
 
     'club-sandwich': [
-        { nombre: 'Sándwich de Jamón y Queso', precio: 7.00, imagen:'./images/Sandwich/Sandwich-Jamon-Queso.jpg'},
+        { nombre: 'Sándwich de Jamón y Queso', precio: 8.00, imagen:'./images/Sandwich/Sandwich-Jamon-Queso.jpg'},
         { nombre: 'Sándwich de Pollo', precio: 8.00, imagen:'./images/Sandwich/pollo.jpg'},
         { nombre: 'Sándwich Hawaiano', precio: 8.00, imagen:'./images/Sandwich/hawaiana.jpg'},
         { nombre: 'Sándwich con Palta', precio: 7.00, imagen:'./images/Sandwich/palta.jpg'},
