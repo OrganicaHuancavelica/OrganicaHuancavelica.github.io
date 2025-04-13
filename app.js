@@ -17,10 +17,10 @@ const productosPorCategoria = {
     ],
 
     'limonadas': [
-        { nombre: 'Limonada de Cherry', precio: 6.00,imagen: './images/limonadas/l-limonada-cherry.jpg' },
-        { nombre: 'Limonada de Mango', precio: 6.00,imagen: './images/limonadas/l-limonada-mango.jpg' },
-        { nombre: 'Limonada de Menta', precio: 6.00,imagen: './images/limonadas/l-menta.jpg' },
-        { nombre: 'Limonada Tradicional', precio: 6.00,imagen: './images/limonadas/l-limonada.jpg' },
+        { nombre: 'Limonada de Cherry', precio: 6.50,imagen: './images/limonadas/l-limonada-cherry.jpg' },
+        { nombre: 'Limonada de Mango', precio: 6.50,imagen: './images/limonadas/l-limonada-mango.jpg' },
+        { nombre: 'Limonada de Menta', precio: 6.50,imagen: './images/limonadas/l-menta.jpg' },
+        { nombre: 'Limonada Tradicional', precio: 6.50,imagen: './images/limonadas/l-limonada.jpg' },
         { nombre: 'Limonada de Jamaica', precio: 8.50,imagen: './images/limonadas/l-jamaica.jpg' },
     ],
 
@@ -83,7 +83,7 @@ const productosPorCategoria = {
 
     'pasteles': [
         { nombre: 'Torta de Chocolate/Fresa', precio: 8.00, imagen:'./images/Postres/Torta-Chocolate.jpg'},
-        { nombre: 'Torta de Chocolate', precio: 7.00, imagen:'./images/Postres/Chocolate-Helado.jpg'},
+        { nombre: 'Torta de Chocolate', precio: 8.00, imagen:'./images/Postres/Chocolate-Helado.jpg'},
         { nombre: 'Torta del Día (porción)', precio: 7.00, imagen:'./images/Postres/Torta-Porcion.jpg'},
         { nombre: 'Carrot Cake', precio: 8.00, imagen:'./images/Postres/Carrot Cake.jpeg'},
         { nombre: 'Cheesecake New Yorck', precio: 8.00, imagen:'./images/Postres/Cheesecake New Yorck.jpeg'},
