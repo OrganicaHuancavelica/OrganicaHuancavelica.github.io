@@ -115,7 +115,7 @@ const productosPorCategoria = {
         { nombre: 'Sándwich Hawaiano', precio: 8.00, imagen:'./images/Sandwich/hawaiana.jpg'},
         { nombre: 'Sándwich con Palta', precio: 7.00, imagen:'./images/Sandwich/palta.jpg'},
     ],
-    'desayunos': [
+    'desayuno': [
         { nombre: 'Waffles con Syrup de Caramelo + cafe o mate', precio: 9.90, imagen:'./images/Waffles/caramelo.jpg'},
         { nombre: 'Waffles con Fruta + cafe o mate', precio: 11.90, imagen:'./images/Waffles/frutas.jpg'},
         { nombre: 'Waffles con Helado + cafe o mate', precio: 11.90, imagen:'./images/Waffles/helado.jpg'},
