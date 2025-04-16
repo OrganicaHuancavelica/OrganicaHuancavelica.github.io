@@ -3,13 +3,13 @@ const productosPorCategoria = {
     'bebidas-calientes': [
         { nombre: 'Café Americano', precio: 4.50,imagen: './images/bebidasCalientes/Cafe-Americano.jpeg' },
         { nombre: 'Café Expreso', precio: 4.00,imagen: './images/bebidasCalientes/Cafe-Expresso.jpg' },
-        { nombre: 'Capuccino', precio: 6.50,imagen: './images/bebidasCalientes/Cafe-Capuccino.jpg' },
+        { nombre: 'Capuccino', precio: 7.00,imagen: './images/bebidasCalientes/Cafe-Capuccino.jpg' },
         { nombre: 'Matcha Milk', precio: 8.50,imagen: './images/bebidasCalientes/Capuccino.jpeg' },
         { nombre: 'Café Mocca', precio: 7.50,imagen: './images/bebidasCalientes/Moccha-Caliente.jpeg' },
         { nombre: 'Café Bombón', precio: 7.50,imagen: './images/bebidasCalientes/Cafe-Bombon.jpeg' },
         { nombre: 'Café Caramel', precio: 7.50,imagen: './images/bebidasCalientes/Cafe-Caramel.jpeg' },
-        { nombre: 'Submarino', precio: 7.50,imagen: './images/bebidasCalientes/Submarino.jpeg' },
-        { nombre: 'Chocolatada', precio: 5.50,imagen:'./images/bebidasCalientes/Chocolate.jpg' },
+        { nombre: 'Submarino', precio: 8.00,imagen: './images/bebidasCalientes/Submarino.jpeg' },
+        { nombre: 'Chocolatada', precio: 6.00,imagen:'./images/bebidasCalientes/Chocolate.jpg' },
         { nombre: 'Té de flor de Jamaica', precio: 7.00,imagen: './images/bebidasCalientes/Te-Jamaica.jpg' },
         { nombre: 'Té Verde', precio: 6.50,imagen: './images/bebidasCalientes/Te-Verde.jpg' },
         { nombre: 'Mate', precio: 3.50,imagen:'./images/bebidasCalientes/Mate.jpg' },
@@ -37,7 +37,6 @@ const productosPorCategoria = {
     'fresas': [
         { nombre: 'Fresa con Chocolate', precio: 10.00, imagen:'./images/fresas/chocolate.jpg' },
         { nombre: 'Fresa con Vainilla', precio: 10.00, imagen:'./images/fresas/vainilla.jpg' },
-        { nombre: 'Fresa con Fugde', precio: 10.00, imagen:'./images/fresas/fresa-con-fudge.png' },
     ],
 
     'cocktails': [
@@ -49,7 +48,7 @@ const productosPorCategoria = {
 
     'helados': [
         { nombre: 'Cono', precio: 2.50, imagen:'./images/helados/cono.png'  },
-        { nombre: 'Conazo', precio: 5.00, imagen:'./images/helados/conazo.png'  },
+        { nombre: 'Copa fresa con helados', precio: 14.00, imagen:'./images/helados/conazo.png'  },
     ],
 
     'bebidas-frias': [
@@ -58,8 +57,10 @@ const productosPorCategoria = {
         { nombre: 'Capuccino Frío', precio: 8.50, imagen:'./images/bebidasFrias/capuccino-frio.jpg'},
         { nombre: 'Café Mocha Frío', precio: 8.50, imagen:'./images/bebidasFrias/moccha-frio.jpg'},
         { nombre: 'Blueberry Milk', precio: 9.50 , imagen:'./images/bebidasFrias/Cafe-BluerryMilk.jpg'},
-        { nombre: 'Mango Latte', precio: 10.50, imagen:'./images/bebidasFrias/mango.jpg'},
-        { nombre: 'Fresa Milk', precio: 10.50, imagen:'./images/bebidasFrias/fresa.jpg'},
+        { nombre: 'Mango Latte', precio: 9.50, imagen:'./images/bebidasFrias/mango.jpg'},
+        { nombre: 'Fresa Milk', precio: 9.50, imagen:'./images/bebidasFrias/fresa.jpg'},
+        {nombre: 'Agregar Leche Deslactosada', precio: 2.00, imagen:'./images/leche/leche.jpg' },
+        {nombre: 'Agregar Leche de Almendras', precio: 2.00, imagen:'./images/leche/leche-almendras.jpg' },
     ],
 
     'regalos': [
@@ -75,6 +76,8 @@ const productosPorCategoria = {
         { nombre: 'Blueberry Matcha', precio: 11.00, imagen:'./images/Matcha/Blueberry-Matcha.jpg'},
         { nombre: 'Mango Matcha', precio: 11.00, imagen:'./images/Matcha/Matcha-Mango.jpg'},
         { nombre: 'Matcha y Fresa', precio: 11.00, imagen:'./images/Matcha/fresa-matcha.jpg'},
+        {nombre: 'Agregar Leche Deslactosada', precio: 2.00, imagen:'./images/leche/leche.jpg' },
+        {nombre: 'Agregar Leche de Almendras', precio: 2.00, imagen:'./images/leche/leche-almendras.jpg' },
     ],
 
     'naranja-miel': [
@@ -82,9 +85,7 @@ const productosPorCategoria = {
     ],
 
     'pasteles': [
-        { nombre: 'Torta de Chocolate/Fresa', precio: 8.00, imagen:'./images/Postres/Torta-Chocolate.jpg'},
         { nombre: 'Torta de Chocolate', precio: 8.00, imagen:'./images/Postres/Chocolate-Helado.jpg'},
-        { nombre: 'Torta del Día (porción)', precio: 7.00, imagen:'./images/Postres/Torta-Porcion.jpg'},
         { nombre: 'Carrot Cake', precio: 8.00, imagen:'./images/Postres/Carrot Cake.jpeg'},
         { nombre: 'Cheesecake New Yorck', precio: 8.00, imagen:'./images/Postres/Cheesecake New Yorck.jpeg'},
         { nombre: 'Rollo de Canela', precio: 6.00, imagen:'./images/Postres/Rollo de Canela.jpeg'},
@@ -100,6 +101,9 @@ const productosPorCategoria = {
         { nombre: 'Jugo de Papaya', precio: 7.00, imagen:'./images/Jugos/papaya.jpg'},
         { nombre: 'Jugo de Naranja', precio: 7.00, imagen:'./images/Jugos/naranja.jpg'},
         { nombre: 'Jugo de Mango', precio: 7.00, imagen:'./images/Jugos/mango.jpg'},
+        {nombre: 'Agregar Leche', precio: 1.00, imagen:'./images/leche/leche.jpg' },
+        {nombre: 'Agregar Leche Deslactosada', precio: 1.00, imagen:'./images/leche/leche.jpg' },
+        {nombre: 'Agregar Leche de Almendras', precio: 2.00, imagen:'./images/leche/leche-almendras.jpg' },
     ],
 
     'waffles': [
@@ -136,10 +140,10 @@ const productosPorCategoria = {
         { nombre: 'Empanada + cafe', precio: 9.50, imagen:'./images/Empanadas/carne.jpg'},
         { nombre: 'Empanada + limonada', precio: 10.00, imagen:'./images/Empanadas/pollo.jpg'},
         { nombre: 'Empanada + jugo', precio: 12.00, imagen:'./images/Empanadas/carne.jpg'},
-        { nombre: 'Rollo de Canela + mate', precio: 6.90, imagen:'./images/Postres/Rollo de Canela.jpeg'},
-        { nombre: 'Rollo de Canela + cafe', precio: 6.90, imagen:'./images/Postres/Rollo de Canela.jpeg'},
-        { nombre: 'Rollo de Canela + limonada', precio: 6.90, imagen:'./images/Postres/Rollo de Canela.jpeg'},
-        { nombre: 'Rollo de Canela + jugo', precio: 6.90, imagen:'./images/Postres/Rollo de Canela.jpeg'},
+        { nombre: 'Rollo de Canela + mate', precio: 8.00, imagen:'./images/Postres/Rollo de Canela.jpeg'},
+        { nombre: 'Rollo de Canela + cafe', precio: 9.50, imagen:'./images/Postres/Rollo de Canela.jpeg'},
+        { nombre: 'Rollo de Canela + limonada', precio: 10.00, imagen:'./images/Postres/Rollo de Canela.jpeg'},
+        { nombre: 'Rollo de Canela + jugo', precio: 12.00, imagen:'./images/Postres/Rollo de Canela.jpeg'},
     ], 
 }; 
 
