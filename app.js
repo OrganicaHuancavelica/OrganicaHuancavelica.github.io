@@ -2,7 +2,7 @@
 const productosPorCategoria = {
     'bebidas-calientes': [
         { nombre: 'Café Americano', precio: 4.50,imagen: './images/bebidasCalientes/Cafe-Americano.jpeg' },
-        { nombre: 'Café Expreso', precio: 4.00,imagen: './images/bebidasCalientes/Cafe-Expresso.jpg' },
+        { nombre: 'Café Expreso', precio: 4.50,imagen: './images/bebidasCalientes/Cafe-Expresso.jpg' },
         { nombre: 'Capuccino', precio: 7.00,imagen: './images/bebidasCalientes/Cafe-Capuccino.jpg' },
         { nombre: 'Matcha Milk', precio: 8.50,imagen: './images/bebidasCalientes/Capuccino.jpeg' },
         { nombre: 'Café Mocca', precio: 7.50,imagen: './images/bebidasCalientes/Moccha-Caliente.jpeg' },
@@ -52,8 +52,8 @@ const productosPorCategoria = {
     ],
 
     'bebidas-frias': [
-        { nombre: 'Americano Frío', precio: 6.50, imagen:'./images/bebidasFrias/americano-frio.jpg'},
-        { nombre: 'Orange Americano ', precio: 7.50, imagen:'./images/bebidasFrias/orange-americano.jpg'},
+        { nombre: 'Americano Frío', precio: 7.50, imagen:'./images/bebidasFrias/americano-frio.jpg'},
+        { nombre: 'Orange Americano ', precio: 8.50, imagen:'./images/bebidasFrias/orange-americano.jpg'},
         { nombre: 'Capuccino Frío', precio: 8.50, imagen:'./images/bebidasFrias/capuccino-frio.jpg'},
         { nombre: 'Café Mocha Frío', precio: 8.50, imagen:'./images/bebidasFrias/moccha-frio.jpg'},
         { nombre: 'Blueberry Milk', precio: 9.50 , imagen:'./images/bebidasFrias/Cafe-BluerryMilk.jpg'},
@@ -85,15 +85,16 @@ const productosPorCategoria = {
     ],
 
     'pasteles': [
-        { nombre: 'Torta de Chocolate', precio: 8.00, imagen:'./images/Postres/Chocolate-Helado.jpg'},
-        { nombre: 'Carrot Cake', precio: 8.00, imagen:'./images/Postres/Carrot Cake.jpeg'},
-        { nombre: 'Cheesecake New Yorck', precio: 8.00, imagen:'./images/Postres/Cheesecake New Yorck.jpeg'},
+        { nombre: 'Torta de Chocolate', precio: 9.50, imagen:'./images/Postres/Chocolate-Helado.jpg'},
+        { nombre: 'Carrot Cake', precio: 9.50, imagen:'./images/Postres/Carrot Cake.jpeg'},
+        { nombre: 'Cheesecake New Yorck', precio: 10.50, imagen:'./images/Postres/Cheesecake New Yorck.jpeg'},
         { nombre: 'Rollo de Canela', precio: 9.50, imagen:'./images/Postres/Rollo de Canela.jpeg'},
+        { nombre: 'Tiramisu', precio: 9.50, imagen:'./images/Postres/Rollo de Canela.jpeg'},
     ],
 
     'empanada': [
-        { nombre: 'Empanada de Pollo', precio: 6.00, imagen:'./images/Empanadas/pollo.jpg'},
-        { nombre: 'Empanada de Carne', precio: 6.00, imagen:'./images/Empanadas/carne.jpg'},
+        { nombre: 'Empanada de Pollo', precio: 6.90, imagen:'./images/Empanadas/pollo.jpg'},
+        { nombre: 'Empanada de Carne', precio: 6.90, imagen:'./images/Empanadas/carne.jpg'},
     ],
 
     'jugos-fruta': [
@@ -114,9 +115,9 @@ const productosPorCategoria = {
     ],
 
     'club-sandwich': [
-        { nombre: 'Sándwich de Jamón y Queso', precio: 8.00, imagen:'./images/Sandwich/Sandwich-Jamon-Queso.jpg'},
-        { nombre: 'Sándwich de Pollo', precio: 8.00, imagen:'./images/Sandwich/pollo.jpg'},
-        { nombre: 'Sándwich Hawaiano', precio: 8.00, imagen:'./images/Sandwich/hawaiana.jpg'},
+        { nombre: 'Sándwich de Jamón y Queso', precio: 8.90, imagen:'./images/Sandwich/Sandwich-Jamon-Queso.jpg'},
+        { nombre: 'Sándwich de Pollo', precio: 8.90, imagen:'./images/Sandwich/pollo.jpg'},
+        { nombre: 'Sándwich Hawaiano', precio: 8.90, imagen:'./images/Sandwich/hawaiana.jpg'},
         { nombre: 'Sándwich con Palta', precio: 7.00, imagen:'./images/Sandwich/palta.jpg'},
     ],
     'desayuno': [
