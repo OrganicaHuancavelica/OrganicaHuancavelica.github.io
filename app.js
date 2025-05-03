@@ -127,7 +127,7 @@ const productosPorCategoria = {
         { nombre: 'Rollo de Canela + arandano', precio: 9.50, imagen:'./images/Postres/Rollo de Canela.jpeg'},
         { nombre: 'Rollo de Canela + fresa', precio: 9.50, imagen:'./images/Postres/Rollo de Canela.jpeg'},
         { nombre: 'Rollo de Canela + nutella', precio: 9.50, imagen:'./images/Postres/Rollo de Canela.jpeg'},
-        { nombre: 'Rollo de Canela + manjar y almendras', 9.50, imagen:'./images/Postres/Rollo de Canela.jpeg'},
+        { nombre: 'Rollo de Canela + manjar y almendras', precio: 9.50, imagen:'./images/Postres/Rollo de Canela.jpeg'},
     ],
     
     'desayuno': [
