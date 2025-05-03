@@ -129,6 +129,7 @@ const productosPorCategoria = {
         { nombre: 'Rollo de Canela + nutella', precio: 9.50, imagen:'./images/Postres/Rollo de Canela.jpeg'},
         { nombre: 'Rollo de Canela + manjar y almendras', 9.50, imagen:'./images/Postres/Rollo de Canela.jpeg'},
     ],
+    
     'desayuno': [
         { nombre: 'Waffles con Syrup de Caramelo + cafe o mate', precio: 9.90, imagen:'./images/Waffles/caramelo.jpg'},
         { nombre: 'Waffles con Fruta + cafe o mate', precio: 11.90, imagen:'./images/Waffles/frutas.jpg'},
@@ -143,6 +144,7 @@ const productosPorCategoria = {
         { nombre: 'Empanada de Pollo + cafe o mate', precio: 6.90, imagen:'./images/Empanadas/pollo.jpg'},
         { nombre: 'Empanada de Carne + cafe o mate', precio: 6.90, imagen:'./images/Empanadas/carne.jpg'},
     ], 
+    
     'combos': [
         { nombre: 'Empanada + mate', precio: 8.00, imagen:'./images/Empanadas/pollo.jpg'},
         { nombre: 'Empanada + cafe', precio: 9.50, imagen:'./images/Empanadas/carne.jpg'},
