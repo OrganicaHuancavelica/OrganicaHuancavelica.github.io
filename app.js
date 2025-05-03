@@ -90,11 +90,13 @@ const productosPorCategoria = {
         { nombre: 'Red velvet', precio: 8.50, imagen:'./images/Postres/Cheesecake New Yorck.jpeg'},
         { nombre: 'Rollo de Canela', precio: 9.50, imagen:'./images/Postres/Rollo de Canela.jpeg'},
         { nombre: 'Tiramisu', precio: 8.50, imagen:'./images/Postres/Rollo de Canela.jpeg'},
+        { nombre: 'Sándwich de Jamón y Queso', precio: 8.00, imagen:'./images/Sandwich/Sandwich-Jamon-Queso.jpg'},
+        { nombre: 'Sándwich de Pollo', precio: 8.00, imagen:'./images/Sandwich/pollo.jpg'},  
     ],
 
     'empanada': [
-        { nombre: 'Empanada de Pollo', precio: 6.90, imagen:'./images/Empanadas/pollo.jpg'},
-        { nombre: 'Empanada de Carne', precio: 6.90, imagen:'./images/Empanadas/carne.jpg'},
+        { nombre: 'Empanada de Pollo', precio: 5.50, imagen:'./images/Empanadas/pollo.jpg'},
+        { nombre: 'Empanada de Carne', precio: 5.50, imagen:'./images/Empanadas/carne.jpg'},
     ],
 
     'jugos-fruta': [
@@ -121,11 +123,11 @@ const productosPorCategoria = {
         { nombre: 'Waffles con Fruta y Helado', precio: 10.00, imagen:'./images/Waffles/fruta-helado.jpg'},
     ],
 
-    'club-sandwich': [
-        { nombre: 'Sándwich de Jamón y Queso', precio: 8.90, imagen:'./images/Sandwich/Sandwich-Jamon-Queso.jpg'},
-        { nombre: 'Sándwich de Pollo', precio: 8.90, imagen:'./images/Sandwich/pollo.jpg'},
-        { nombre: 'Sándwich Hawaiano', precio: 8.90, imagen:'./images/Sandwich/hawaiana.jpg'},
-        { nombre: 'Sándwich con Palta', precio: 7.00, imagen:'./images/Sandwich/palta.jpg'},
+    'roll-de-canela': [
+        { nombre: 'Rollo de Canela + arandano', precio: 9.50, imagen:'./images/Postres/Rollo de Canela.jpeg'},
+        { nombre: 'Rollo de Canela + fresa', precio: 9.50, imagen:'./images/Postres/Rollo de Canela.jpeg'},
+        { nombre: 'Rollo de Canela + nutella', precio: 9.50, imagen:'./images/Postres/Rollo de Canela.jpeg'},
+        { nombre: 'Rollo de Canela + manjar y almendras', 9.50, imagen:'./images/Postres/Rollo de Canela.jpeg'},
     ],
     'desayuno': [
         { nombre: 'Waffles con Syrup de Caramelo + cafe o mate', precio: 9.90, imagen:'./images/Waffles/caramelo.jpg'},
@@ -134,8 +136,6 @@ const productosPorCategoria = {
         { nombre: 'Waffles con Fruta y Helado + cafe o mate', precio: 12.90, imagen:'./images/Waffles/fruta-helado.jpg'},
         { nombre: 'Sándwich de Jamón y Queso + cafe o mate', precio: 8.90, imagen:'./images/Sandwich/Sandwich-Jamon-Queso.jpg'},
         { nombre: 'Sándwich de Pollo + cafe o mate', precio: 8.90, imagen:'./images/Sandwich/pollo.jpg'},
-        { nombre: 'Sándwich Hawaiano + cafe o mate', precio: 8.90, imagen:'./images/Sandwich/hawaiana.jpg'},
-        { nombre: 'Sándwich con Palta + cafe o mate', precio: 7.90, imagen:'./images/Sandwich/palta.jpg'},
         { nombre: 'Torta de Chocolate/Fresa + cafe o mate', precio: 8.90, imagen:'./images/Postres/Torta-Chocolate.jpg'},
         { nombre: 'Carrot Cake + cafe o mate', precio: 8.90, imagen:'./images/Postres/Carrot Cake.jpeg'},
         { nombre: 'Cheesecake New Yorck + cafe o mate', precio: 8.90, imagen:'./images/Postres/Cheesecake New Yorck.jpeg'},
@@ -148,10 +148,6 @@ const productosPorCategoria = {
         { nombre: 'Empanada + cafe', precio: 9.50, imagen:'./images/Empanadas/carne.jpg'},
         { nombre: 'Empanada + limonada', precio: 10.00, imagen:'./images/Empanadas/pollo.jpg'},
         { nombre: 'Empanada + jugo', precio: 12.00, imagen:'./images/Empanadas/carne.jpg'},
-        { nombre: 'Rollo de Canela + mate', precio: 8.00, imagen:'./images/Postres/Rollo de Canela.jpeg'},
-        { nombre: 'Rollo de Canela + cafe', precio: 9.50, imagen:'./images/Postres/Rollo de Canela.jpeg'},
-        { nombre: 'Rollo de Canela + limonada', precio: 10.00, imagen:'./images/Postres/Rollo de Canela.jpeg'},
-        { nombre: 'Rollo de Canela + jugo', precio: 12.00, imagen:'./images/Postres/Rollo de Canela.jpeg'},
     ], 
 }; 
 
