@@ -114,7 +114,7 @@ const productosPorCategoria = {
         { nombre: 'Waffles con Fruta y Helado', precio: 12.00, imagen:'./images/Waffles/fruta-helado.jpg'},
     ],
     
-    'waffles-ligero': [
+     'waffles-ligero': [
         { nombre: 'Waffles con Syrup de Caramelo', precio: 7.00, imagen:'./images/Waffles/caramelo.jpg'},
         { nombre: 'Waffles con Fruta', precio: 9.00, imagen:'./images/Waffles/frutas.jpg'},
         { nombre: 'Waffles con Helado', precio: 9.00, imagen:'./images/Waffles/helado.jpg'},
