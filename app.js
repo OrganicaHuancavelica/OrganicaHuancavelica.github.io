@@ -113,6 +113,13 @@ const productosPorCategoria = {
         { nombre: 'Waffles con Helado', precio: 11.00, imagen:'./images/Waffles/helado.jpg'},
         { nombre: 'Waffles con Fruta y Helado', precio: 12.00, imagen:'./images/Waffles/fruta-helado.jpg'},
     ],
+    
+    'waffles-ligero': [
+        { nombre: 'Waffles con Syrup de Caramelo', precio: 7.00, imagen:'./images/Waffles/caramelo.jpg'},
+        { nombre: 'Waffles con Fruta', precio: 9.00, imagen:'./images/Waffles/frutas.jpg'},
+        { nombre: 'Waffles con Helado', precio: 9.00, imagen:'./images/Waffles/helado.jpg'},
+        { nombre: 'Waffles con Fruta y Helado', precio: 10.00, imagen:'./images/Waffles/fruta-helado.jpg'},
+    ],
 
     'club-sandwich': [
         { nombre: 'Sándwich de Jamón y Queso', precio: 8.90, imagen:'./images/Sandwich/Sandwich-Jamon-Queso.jpg'},
