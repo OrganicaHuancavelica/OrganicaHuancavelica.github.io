@@ -85,18 +85,20 @@ const productosPorCategoria = {
     ],
 
     'pasteles': [
-        { nombre: 'Torta de Chocolate', precio: 8.50, imagen:'./images/Postres/Chocolate-Helado.jpg'},
-        { nombre: 'Carrot Cake', precio: 8.50, imagen:'./images/Postres/Carrot Cake.jpeg'},
+        { nombre: 'Torta de Chocolate', precio: 9.90, imagen:'./images/Postres/Chocolate-Helado.jpg'},
+        { nombre: 'Carrot Cake', precio: 9.90, imagen:'./images/Postres/Carrot Cake.jpeg'},
         { nombre: 'Red velvet', precio: 8.50, imagen:'./images/Postres/Cheesecake New Yorck.jpeg'},
-        { nombre: 'Rollo de Canela', precio: 9.50, imagen:'./images/Postres/Rollo de Canela.jpeg'},
-        { nombre: 'Tiramisu', precio: 8.50, imagen:'./images/Postres/Rollo de Canela.jpeg'},
-        { nombre: 'Sándwich de Jamón y Queso', precio: 8.00, imagen:'./images/Sandwich/Sandwich-Jamon-Queso.jpg'},
-        { nombre: 'Sándwich de Pollo', precio: 8.00, imagen:'./images/Sandwich/pollo.jpg'},  
+        { nombre: 'Rollo de Canela', precio: 7.90, imagen:'./images/Postres/Rollo de Canela.jpeg'},
+        { nombre: 'Tiramisu', precio: 9.90, imagen:'./images/Postres/Rollo de Canela.jpeg'},
+        { nombre: 'Tosino del cielo', precio: 9.90, imagen:'./images/Postres/Rollo de Canela.jpeg'},
+        { nombre: 'Pie de limon', precio: 7.90, imagen:'./images/Postres/Rollo de Canela.jpeg'}
+        { nombre: 'Sándwich de Jamón y Queso', precio: 9.90, imagen:'./images/Sandwich/Sandwich-Jamon-Queso.jpg'},
+        { nombre: 'Sándwich de Pollo', precio: 9.90, imagen:'./images/Sandwich/pollo.jpg'},  
     ],
 
     'empanada': [
-        { nombre: 'Empanada de Pollo', precio: 5.50, imagen:'./images/Empanadas/pollo.jpg'},
-        { nombre: 'Empanada de Carne', precio: 5.50, imagen:'./images/Empanadas/carne.jpg'},
+        { nombre: 'Empanada de Pollo', precio: 6.90, imagen:'./images/Empanadas/pollo.jpg'},
+        { nombre: 'Empanada de Carne', precio: 6.90, imagen:'./images/Empanadas/carne.jpg'},
     ],
 
     'jugos-fruta': [
@@ -110,10 +112,10 @@ const productosPorCategoria = {
     ],
 
     'waffles': [
-        { nombre: 'Waffles con Syrup de Caramelo', precio: 9.00, imagen:'./images/Waffles/caramelo.jpg'},
-        { nombre: 'Waffles con Fruta', precio: 11.00, imagen:'./images/Waffles/frutas.jpg'},
-        { nombre: 'Waffles con Helado', precio: 11.00, imagen:'./images/Waffles/helado.jpg'},
-        { nombre: 'Waffles con Fruta y Helado', precio: 12.00, imagen:'./images/Waffles/fruta-helado.jpg'},
+        { nombre: 'Waffles con Syrup de Caramelo', precio: 9.90, imagen:'./images/Waffles/caramelo.jpg'},
+        { nombre: 'Waffles con Fruta', precio: 11.90, imagen:'./images/Waffles/frutas.jpg'},
+        { nombre: 'Waffles con Helado', precio: 11.90, imagen:'./images/Waffles/helado.jpg'},
+        { nombre: 'Waffles con Fruta y Helado', precio: 12.90, imagen:'./images/Waffles/fruta-helado.jpg'},
     ],
     
      'waffles-ligero': [
