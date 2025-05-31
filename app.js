@@ -1,4 +1,4 @@
-// Productos por categoría
+// Productos por categoríañ
 const productosPorCategoria = {
     'bebidas-calientes': [
         { nombre: 'Café Americano', precio: 4.50,imagen: './images/bebidasCalientes/Cafe-Americano.jpeg' },
