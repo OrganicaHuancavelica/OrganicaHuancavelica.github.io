@@ -90,8 +90,6 @@ const productosPorCategoria = {
         { nombre: 'Red velvet', precio: 8.50, imagen:'./images/Postres/Cheesecake New Yorck.jpeg'},
         { nombre: 'Rollo de Canela', precio: 7.90, imagen:'./images/Postres/Rollo de Canela.jpeg'},
         { nombre: 'Tiramisu', precio: 9.90, imagen:'./images/Postres/Rollo de Canela.jpeg'},
-        { nombre: 'Tosino del cielo', precio: 9.90, imagen:'./images/Postres/Rollo de Canela.jpeg'},
-        { nombre: 'Pie de limon', precio: 7.90, imagen:'./images/Postres/Rollo de Canela.jpeg'},
         { nombre: 'Sándwich de Jamón y Queso', precio: 9.90, imagen:'./images/Sandwich/Sandwich-Jamon-Queso.jpg'},
         { nombre: 'Sándwich de Pollo', precio: 9.90, imagen:'./images/Sandwich/pollo.jpg'},  
     ],
