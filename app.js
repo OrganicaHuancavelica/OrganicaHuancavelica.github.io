@@ -87,11 +87,13 @@ const productosPorCategoria = {
     'pasteles': [
         { nombre: 'Torta de Chocolate', precio: 8.50, imagen:'./images/Postres/Chocolate-Helado.jpg'},
         { nombre: 'Carrot Cake', precio: 8.00, imagen:'./images/Postres/Carrot Cake.jpeg'},
-        { nombre: 'Red velvet', precio: 8.50, imagen:'./images/Postres/Cheesecake New Yorck.jpeg'},
+        { nombre: 'Pie de limon', precio: 6.50, imagen:'./images/Postres/Cheesecake New Yorck.jpeg'},
+        { nombre: 'Pastel de Acelga', precio: 6.50, imagen:'./images/Postres/Rollo de Canela.jpeg'},
         { nombre: 'Rollo de Canela', precio: 6.50, imagen:'./images/Postres/Rollo de Canela.jpeg'},
         { nombre: 'Tiramisu', precio: 8.50, imagen:'./images/Postres/Rollo de Canela.jpeg'},
         { nombre: 'Sándwich de Jamón y Queso', precio: 9.90, imagen:'./images/Sandwich/Sandwich-Jamon-Queso.jpg'},
-        { nombre: 'Sándwich de Pollo', precio: 9.90, imagen:'./images/Sandwich/pollo.jpg'},  
+        { nombre: 'Sándwich de Pollo', precio: 9.90, imagen:'./images/Sandwich/pollo.jpg'},
+        { nombre: 'Tocino del Cielo', precio: 8.50, imagen:'./images/Postres/Rollo de Canela.jpeg'},
     ],
 
     'empanada': [
