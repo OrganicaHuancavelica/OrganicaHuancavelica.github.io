@@ -37,6 +37,7 @@ const productosPorCategoria = {
     'fresas': [
         { nombre: 'Fresa con Chocolate', precio: 10.00, imagen:'./images/fresas/chocolate.jpg' },
         { nombre: 'Fresa con Vainilla', precio: 10.00, imagen:'./images/fresas/vainilla.jpg' },
+        { nombre: 'Copa Fresa con Helado', precio: 14.00, imagen:'./images/fresas/vainilla.jpg' },
     ],
 
     'cocktails': [
@@ -44,11 +45,6 @@ const productosPorCategoria = {
         { nombre: 'Hawai', precio:  8.00, imagen:'./images/SodasconHielo/hawai.jpg'},
         { nombre: 'Galaxy', precio: 8.00, imagen:'./images/SodasconHielo/galaxi.png' },
         {nombre: 'Agregar alcohol', precio: 3.00, imagen:'./images/SodasconHielo/alcohol.jpg' },
-    ],
-
-    'helados': [
-        { nombre: 'Cono', precio: 2.50, imagen:'./images/helados/cono.png'  },
-        { nombre: 'Copa fresa con helados', precio: 14.00, imagen:'./images/helados/conazo.png'  },
     ],
 
     'bebidas-frias': [
@@ -91,12 +87,9 @@ const productosPorCategoria = {
         { nombre: 'Pastel de Acelga', precio: 6.50, imagen:'./images/Postres/Rollo de Canela.jpeg'},
         { nombre: 'Rollo de Canela', precio: 6.50, imagen:'./images/Postres/Rollo de Canela.jpeg'},
         { nombre: 'Tiramisu', precio: 8.50, imagen:'./images/Postres/Rollo de Canela.jpeg'},
-        { nombre: 'Sándwich de Jamón y Queso', precio: 9.90, imagen:'./images/Sandwich/Sandwich-Jamon-Queso.jpg'},
-        { nombre: 'Sándwich de Pollo', precio: 9.90, imagen:'./images/Sandwich/pollo.jpg'},
+        { nombre: 'Sándwich de Jamón y Queso', precio: 8.00, imagen:'./images/Sandwich/Sandwich-Jamon-Queso.jpg'},
+        { nombre: 'Sándwich de Pollo', precio: 8.90, imagen:'./images/Sandwich/pollo.jpg'},
         { nombre: 'Tocino del Cielo', precio: 8.50, imagen:'./images/Postres/Rollo de Canela.jpeg'},
-    ],
-
-    'empanada': [
         { nombre: 'Empanada de Pollo', precio: 5.50, imagen:'./images/Empanadas/pollo.jpg'},
         { nombre: 'Empanada de Carne', precio: 5.50, imagen:'./images/Empanadas/carne.jpg'},
     ],
@@ -112,10 +105,10 @@ const productosPorCategoria = {
     ],
 
     'waffles': [
-        { nombre: 'Waffles con Syrup de Caramelo', precio: 9.90, imagen:'./images/Waffles/caramelo.jpg'},
-        { nombre: 'Waffles con Fruta', precio: 11.90, imagen:'./images/Waffles/frutas.jpg'},
-        { nombre: 'Waffles con Helado', precio: 11.90, imagen:'./images/Waffles/helado.jpg'},
-        { nombre: 'Waffles con Fruta y Helado', precio: 12.90, imagen:'./images/Waffles/fruta-helado.jpg'},
+        { nombre: 'Waffles con Syrup de Caramelo', precio: 9.00, imagen:'./images/Waffles/caramelo.jpg'},
+        { nombre: 'Waffles con Fruta', precio: 11.00, imagen:'./images/Waffles/frutas.jpg'},
+        { nombre: 'Waffles con Helado', precio: 11.00, imagen:'./images/Waffles/helado.jpg'},
+        { nombre: 'Waffles con Fruta y Helado', precio: 12.00, imagen:'./images/Waffles/fruta-helado.jpg'},
     ],
     
      'waffles-ligero': [
@@ -124,13 +117,6 @@ const productosPorCategoria = {
         { nombre: 'Waffles con Helado', precio: 9.00, imagen:'./images/Waffles/helado.jpg'},
         { nombre: 'Waffles con Fruta y Helado', precio: 10.00, imagen:'./images/Waffles/fruta-helado.jpg'},
     ],
-
-    'roll-de-canela': [
-        { nombre: 'Rollo de Canela + arandano', precio: 9.50, imagen:'./images/Postres/Rollo de Canela.jpeg'},
-        { nombre: 'Rollo de Canela + fresa', precio: 9.50, imagen:'./images/Postres/Rollo de Canela.jpeg'},
-        { nombre: 'Rollo de Canela + nutella', precio: 9.50, imagen:'./images/Postres/Rollo de Canela.jpeg'},
-        { nombre: 'Rollo de Canela + manjar y almendras', precio: 9.50, imagen:'./images/Postres/Rollo de Canela.jpeg'},
-    ],
     
     'desayuno': [
         { nombre: 'Waffles con Syrup de Caramelo + cafe o mate', precio: 9.90, imagen:'./images/Waffles/caramelo.jpg'},
@@ -138,11 +124,14 @@ const productosPorCategoria = {
         { nombre: 'Waffles con Helado + cafe o mate', precio: 11.90, imagen:'./images/Waffles/helado.jpg'},
         { nombre: 'Waffles con Fruta y Helado + cafe o mate', precio: 12.90, imagen:'./images/Waffles/fruta-helado.jpg'},
         { nombre: 'Sándwich de Jamón y Queso + cafe o mate', precio: 9.90, imagen:'./images/Sandwich/Sandwich-Jamon-Queso.jpg'},
-        { nombre: 'Sándwich de Pollo + cafe o mate', precio: 9.90, imagen:'./images/Sandwich/pollo.jpg'},
+        { nombre: 'Sándwich de Pollo + cafe o mate', precio: 10.50, imagen:'./images/Sandwich/pollo.jpg'},
         { nombre: 'Torta de Chocolate/Fresa + cafe o mate', precio: 9.90, imagen:'./images/Postres/Torta-Chocolate.jpg'},
         { nombre: 'Carrot Cake + cafe o mate', precio: 9.90, imagen:'./images/Postres/Carrot Cake.jpeg'},
-        { nombre: 'Cheesecake New Yorck + cafe o mate', precio: 8.90, imagen:'./images/Postres/Cheesecake New Yorck.jpeg'},
+        { nombre: 'Tiramisu + cafe o mate', precio: 9.90, imagen:'./images/Postres/Carrot Cake.jpeg'},
+        { nombre: 'Tocino del Cielo + cafe o mate', precio: 9.90, imagen:'./images/Postres/Cheesecake New Yorck.jpeg'},
+        { nombre: 'Pie de Limon + cafe o mate', precio: 7.90, imagen:'./images/Postres/Carrot Cake.jpeg'},
         { nombre: 'Rollo de Canela + cafe o mate', precio: 7.90, imagen:'./images/Postres/Rollo de Canela.jpeg'},
+        { nombre: 'Pastel de Acelga + cafe o mate', precio: 7.90, imagen:'./images/Postres/Rollo de Canela.jpeg'},
         { nombre: 'Empanada de Pollo + cafe o mate', precio: 6.90, imagen:'./images/Empanadas/pollo.jpg'},
         { nombre: 'Empanada de Carne + cafe o mate', precio: 6.90, imagen:'./images/Empanadas/carne.jpg'},
     ], 
@@ -152,6 +141,10 @@ const productosPorCategoria = {
         { nombre: 'Empanada + cafe', precio: 9.50, imagen:'./images/Empanadas/carne.jpg'},
         { nombre: 'Empanada + limonada', precio: 10.00, imagen:'./images/Empanadas/pollo.jpg'},
         { nombre: 'Empanada + jugo', precio: 12.00, imagen:'./images/Empanadas/carne.jpg'},
+        { nombre: 'Roll + mate', precio: 8.00, imagen:'./images/Empanadas/pollo.jpg'},
+        { nombre: 'Roll + cafe', precio: 9.50, imagen:'./images/Empanadas/carne.jpg'},
+        { nombre: 'Roll + limonada', precio: 10.00, imagen:'./images/Empanadas/pollo.jpg'},
+        { nombre: 'Roll + jugo', precio: 12.00, imagen:'./images/Empanadas/carne.jpg'},
     ], 
 }; 
 
