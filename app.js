@@ -55,7 +55,7 @@ const productosPorCategoria = {
         { nombre: 'Blueberry Milk', precio: 9.50 , imagen:'./images/bebidasFrias/Cafe-BluerryMilk.jpg'},
         { nombre: 'Mango Latte', precio: 9.50, imagen:'./images/bebidasFrias/mango.jpg'},
         { nombre: 'Fresa Milk', precio: 9.50, imagen:'./images/bebidasFrias/fresa.jpg'},
-        {nombre: 'Agregar Leche Deslactosada', precio: 2.00, imagen:'./images/leche/leche.jpg' },
+        {nombre: 'Agregar Leche Deslactosada', precio: 0.00, imagen:'./images/leche/leche.jpg' },
         {nombre: 'Agregar Leche de Almendras', precio: 2.00, imagen:'./images/leche/leche-almendras.jpg' },
     ],
 
@@ -72,7 +72,7 @@ const productosPorCategoria = {
         { nombre: 'Blueberry Matcha', precio: 11.00, imagen:'./images/Matcha/Blueberry-Matcha.jpg'},
         { nombre: 'Mango Matcha', precio: 11.00, imagen:'./images/Matcha/Matcha-Mango.jpg'},
         { nombre: 'Matcha y Fresa', precio: 11.00, imagen:'./images/Matcha/fresa-matcha.jpg'},
-        {nombre: 'Agregar Leche Deslactosada', precio: 2.00, imagen:'./images/leche/leche.jpg' },
+        {nombre: 'Agregar Leche Deslactosada', precio: 0.00, imagen:'./images/leche/leche.jpg' },
         {nombre: 'Agregar Leche de Almendras', precio: 2.00, imagen:'./images/leche/leche-almendras.jpg' },
     ],
 
